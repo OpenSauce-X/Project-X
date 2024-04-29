@@ -1,6 +1,7 @@
 #install before running the code
-Flask==2.1.2
+Flask==2.0.2
+Werkzeug==2.0.2
 requests==2.26.0
+APScheduler==3.8.1
 matplotlib==3.4.3
-apscheduler==3.8.0
 
