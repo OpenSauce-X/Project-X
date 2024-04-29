@@ -8,7 +8,13 @@ import matplotlib.pyplot as plt
 
 app = Flask(__name__)
 
+def append_http(url):
+    if not url.startswith('http://') and not url.startswith('https://'):
+        url = 'http://' + url  # Add 'http://' if schema is missing
+    return url
+
 def check_website(url):
+    url = append_http(url)
     try:
         response = requests.get(url)
         return response.status_code == 200
@@ -16,6 +22,7 @@ def check_website(url):
         return False
 
 def perform_login_transaction(url):
+    url = append_http(url)
     try:
         login_data = {'username': 'your_username', 'password': 'your_password'}
         response = requests.post(url, data=login_data)
@@ -43,17 +50,23 @@ def send_email_notification(subject, message, recipient_email):
         server.quit()
 
 def log_performance_data(url, status, load_time):
-    timestamp = int(time.time())
-    conn = sqlite3.connect('performance.db')
-    cursor = conn.cursor()
-    cursor.execute("INSERT INTO performance_data (timestamp, url, status, load_time) VALUES (?, ?, ?, ?)", (timestamp, url, status, load_time))
-    conn.commit()
-    conn.close()
+    url = append_http(url)
+    try:
+        timestamp = int(time.time())
+        conn = sqlite3.connect('performance.db')
+        cursor = conn.cursor()
+        cursor.execute("INSERT INTO performance_data (timestamp, url, status, load_time) VALUES (?, ?, ?, ?)", (timestamp, url, status, load_time))
+        conn.commit()
+    except sqlite3.Error as e:
+        print(f"SQLite error: {e}")
+    finally:
+        conn.close()
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
         website_url = request.form['website_url']
+        website_url = append_http(website_url)  # Ensure URL has schema before using it
         measure_speed = 'measure_speed' in request.form
         login_transaction = 'login_transaction' in request.form
         status = check_website(website_url)
