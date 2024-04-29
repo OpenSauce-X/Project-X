@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Monitoring</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>"Project X"</h1>
+    <form method="POST">
+        <label for="website_url">Enter Website URL:</label><br>
+        <input type="text" id="website_url" name="website_url" required><br>
+        <input type="checkbox" id="measure_speed" name="measure_speed">
+        <label for="measure_speed">Measure Page Speed</label><br>
+        <input type="checkbox" id="login_transaction" name="login_transaction">
+        <label for="login_transaction">Perform Login Transaction</label><br>
+        <button type="submit">Check</button>
+    </form>
+    {% if website_url %}
+        <p>Website: {{ website_url }}</p>
+        {% if status %}
+            <p>Status: <span style="color: green;">UP</span></p>
+            {% if measure_speed %}
+                <p>Page Load Time: {{ page_load_time }} seconds</p>
+            {% endif %}
+        {% else %}
+            <p>Status: <span style="color: red;">DOWN</span></p>
+        {% endif %}
+        {% if transaction_status is not none %}
+            {% if transaction_status %}
+                <p>Login Transaction: <span style="color: green;">Successful</span></p>
+            {% else %}
+                <p>Login Transaction: <span style="color: red;">Failed</span></p>
+            {% endif %}
+        {% endif %}
+    {% endif %}
+</body>
+</html>
