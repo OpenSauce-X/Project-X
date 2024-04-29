@@ -3,8 +3,13 @@ import requests
 import time
 import sqlite3
 import smtplib
+import logging
 from email.mime.text import MIMEText
 import matplotlib.pyplot as plt
+from flask import redirect, url_for
+from apscheduler.schedulers.background import BackgroundScheduler
+import datetime
+
 
 app = Flask(__name__)
 
@@ -62,14 +67,55 @@ def log_performance_data(url, status, load_time):
     finally:
         conn.close()
 
+# Configure logging
+logging.basicConfig(filename='monitoring.log', level=logging.INFO, format='%(asctime)s - %(levelname)s: %(message)s')
+
+def monitor_website(website_url, measure_speed, login_transaction):
+    status = check_website(website_url)
+    page_load_time = None
+    transaction_status = None
+
+    if measure_speed:
+        start_time = time.time()
+        response = requests.get(website_url)
+        end_time = time.time()
+        page_load_time = end_time - start_time
+        logging.info(f"Pinged website {website_url} at {datetime.datetime.now()} with page load time: {page_load_time} seconds")
+
+    if login_transaction:
+        transaction_status = perform_login_transaction(website_url)
+        logging.info(f"Performed login transaction on website {website_url} at {datetime.datetime.now()}, transaction status: {transaction_status}")
+
+    log_performance_data(website_url, status, page_load_time)
+
+    if not status:
+        send_email_notification("Website Down Alert", f"The website {website_url} is down. Please take immediate action.", "recipient@example.com")
+        logging.warning(f"Website {website_url} is down at {datetime.datetime.now()}")
+
+# Initialize BackgroundScheduler
+scheduler = BackgroundScheduler()
+scheduler.start()
+
+DEFAULT_INTERVAL = 30
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
         website_url = request.form['website_url']
         website_url = append_http(website_url)  # Ensure URL has schema before using it
+        try:
+            time_interval = int(request.form['time_interval'])
+        except KeyError:
+            # Handle the case where 'time_interval' is missing
+            # Set a default time interval value or display an error message
+            time_interval = DEFAULT_INTERVAL  # Set a default value
         measure_speed = 'measure_speed' in request.form
         login_transaction = 'login_transaction' in request.form
         status = check_website(website_url)
+        
+         # Schedule website monitoring task
+        scheduler.add_job(monitor_website, 'interval', minutes=time_interval, args=[website_url, measure_speed, login_transaction])
+        
         page_load_time = None
         transaction_status = None
         if measure_speed:

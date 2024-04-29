@@ -11,11 +11,13 @@
     <form method="POST">
         <label for="website_url">Enter Website URL:</label><br>
         <input type="text" id="website_url" name="website_url" required><br>
+        <label for="time_interval">Time Interval (in minutes):</label><br>
+        <input type="number" id="time_interval" name="time_interval" min="1" value="60" required><br>
         <input type="checkbox" id="measure_speed" name="measure_speed">
         <label for="measure_speed">Measure Page Speed</label><br>
         <input type="checkbox" id="login_transaction" name="login_transaction">
         <label for="login_transaction">Perform Login Transaction</label><br>
-        <button type="submit">Check</button>
+        <button type="submit">Start Monitoring</button>
     </form>
     {% if website_url %}
         <p>Website: {{ website_url }}</p>
