@@ -1,1 +1,176 @@
-.
+.2024-04-30 10:18:59,858 - INFO: Scheduler started
+2024-04-30 10:18:59,864 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-04-30 10:18:59,865 - INFO:  * Restarting with stat
+2024-04-30 10:19:00,261 - INFO: Scheduler started
+2024-04-30 10:19:00,264 - WARNING:  * Debugger is active!
+2024-04-30 10:19:00,305 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 10:19:36,653 - INFO: 127.0.0.1 - - [30/Apr/2024 10:19:36] "GET / HTTP/1.1" 200 -
+2024-04-30 10:19:36,697 - INFO: 127.0.0.1 - - [30/Apr/2024 10:19:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 10:20:00,874 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 10:20:01,185 - INFO: 127.0.0.1 - - [30/Apr/2024 10:20:01] "POST / HTTP/1.1" 200 -
+2024-04-30 10:20:01,203 - INFO: 127.0.0.1 - - [30/Apr/2024 10:20:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 10:21:00,874 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:21:00 IST)" (scheduled at 2024-04-30 10:21:00.873870+05:30)
+2024-04-30 10:21:01,385 - INFO: Pinged website http://rishi.opensaiyan.biz at 2024-04-30 10:21:01.385468 with page load time: 0.0929114818572998 seconds
+2024-04-30 10:21:01,490 - INFO: Performed login transaction on website http://rishi.opensaiyan.biz at 2024-04-30 10:21:01.490440, transaction status: False
+2024-04-30 10:21:01,494 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:22:00 IST)" executed successfully
+2024-04-30 10:22:00,874 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:23:00 IST)" (scheduled at 2024-04-30 10:22:00.873870+05:30)
+2024-04-30 10:22:01,055 - INFO: Pinged website http://rishi.opensaiyan.biz at 2024-04-30 10:22:01.055296 with page load time: 0.08281755447387695 seconds
+2024-04-30 10:22:01,146 - INFO: Performed login transaction on website http://rishi.opensaiyan.biz at 2024-04-30 10:22:01.146256, transaction status: False
+2024-04-30 10:22:01,150 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:23:00 IST)" executed successfully
+2024-04-30 10:23:00,874 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:24:00 IST)" (scheduled at 2024-04-30 10:23:00.873870+05:30)
+2024-04-30 10:23:01,017 - INFO: Pinged website http://rishi.opensaiyan.biz at 2024-04-30 10:23:01.017593 with page load time: 0.07281017303466797 seconds
+2024-04-30 10:23:01,088 - INFO: Performed login transaction on website http://rishi.opensaiyan.biz at 2024-04-30 10:23:01.088433, transaction status: False
+2024-04-30 10:23:01,092 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:24:00 IST)" executed successfully
+2024-04-30 10:24:00,874 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:25:00 IST)" (scheduled at 2024-04-30 10:24:00.873870+05:30)
+2024-04-30 10:24:01,038 - INFO: Pinged website http://rishi.opensaiyan.biz at 2024-04-30 10:24:01.038717 with page load time: 0.07985353469848633 seconds
+2024-04-30 10:24:01,113 - INFO: Performed login transaction on website http://rishi.opensaiyan.biz at 2024-04-30 10:24:01.113879, transaction status: False
+2024-04-30 10:24:01,117 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:25:00 IST)" executed successfully
+2024-04-30 10:25:00,874 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:26:00 IST)" (scheduled at 2024-04-30 10:25:00.873870+05:30)
+2024-04-30 10:25:01,034 - INFO: Pinged website http://rishi.opensaiyan.biz at 2024-04-30 10:25:01.034465 with page load time: 0.07920265197753906 seconds
+2024-04-30 10:25:01,108 - INFO: Performed login transaction on website http://rishi.opensaiyan.biz at 2024-04-30 10:25:01.108018, transaction status: False
+2024-04-30 10:25:01,112 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:26:00 IST)" executed successfully
+2024-04-30 10:26:00,874 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:27:00 IST)" (scheduled at 2024-04-30 10:26:00.873870+05:30)
+2024-04-30 10:26:01,044 - INFO: Pinged website http://rishi.opensaiyan.biz at 2024-04-30 10:26:01.044598 with page load time: 0.0886690616607666 seconds
+2024-04-30 10:26:01,125 - INFO: Performed login transaction on website http://rishi.opensaiyan.biz at 2024-04-30 10:26:01.125607, transaction status: False
+2024-04-30 10:26:01,129 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:27:00 IST)" executed successfully
+2024-04-30 10:27:00,874 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:28:00 IST)" (scheduled at 2024-04-30 10:27:00.873870+05:30)
+2024-04-30 10:27:01,026 - INFO: Pinged website http://rishi.opensaiyan.biz at 2024-04-30 10:27:01.026149 with page load time: 0.0720527172088623 seconds
+2024-04-30 10:27:01,104 - INFO: Performed login transaction on website http://rishi.opensaiyan.biz at 2024-04-30 10:27:01.104212, transaction status: False
+2024-04-30 10:27:01,108 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:28:00 IST)" executed successfully
+2024-04-30 10:28:00,874 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:29:00 IST)" (scheduled at 2024-04-30 10:28:00.873870+05:30)
+2024-04-30 10:28:01,049 - INFO: Pinged website http://rishi.opensaiyan.biz at 2024-04-30 10:28:01.049209 with page load time: 0.08247900009155273 seconds
+2024-04-30 10:28:01,136 - INFO: Performed login transaction on website http://rishi.opensaiyan.biz at 2024-04-30 10:28:01.136344, transaction status: False
+2024-04-30 10:28:01,139 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:29:00 IST)" executed successfully
+2024-04-30 10:29:00,874 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:30:00 IST)" (scheduled at 2024-04-30 10:29:00.873870+05:30)
+2024-04-30 10:29:01,052 - INFO: Pinged website http://rishi.opensaiyan.biz at 2024-04-30 10:29:01.051965 with page load time: 0.10265827178955078 seconds
+2024-04-30 10:29:01,136 - INFO: Performed login transaction on website http://rishi.opensaiyan.biz at 2024-04-30 10:29:01.136336, transaction status: False
+2024-04-30 10:29:01,140 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 10:30:00 IST)" executed successfully
+2024-04-30 10:29:57,279 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 10:29:57,375 - INFO:  * Restarting with stat
+2024-04-30 10:29:57,790 - INFO: Scheduler started
+2024-04-30 10:29:57,794 - WARNING:  * Debugger is active!
+2024-04-30 10:29:57,794 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 10:30:14,610 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 10:30:14,623 - INFO: 127.0.0.1 - - [30/Apr/2024 10:30:14] "POST / HTTP/1.1" 200 -
+2024-04-30 10:30:14,643 - INFO: 127.0.0.1 - - [30/Apr/2024 10:30:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 10:30:21,685 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 10:30:27,048 - INFO: 127.0.0.1 - - [30/Apr/2024 10:30:27] "POST / HTTP/1.1" 200 -
+2024-04-30 10:30:27,074 - INFO: 127.0.0.1 - - [30/Apr/2024 10:30:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 10:33:53,395 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 10:33:53,480 - INFO:  * Restarting with stat
+2024-04-30 10:33:53,936 - INFO: Scheduler started
+2024-04-30 10:33:53,941 - WARNING:  * Debugger is active!
+2024-04-30 10:33:53,941 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 10:34:02,824 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 10:34:08,231 - INFO: 127.0.0.1 - - [30/Apr/2024 10:34:08] "POST / HTTP/1.1" 200 -
+2024-04-30 10:34:08,246 - INFO: 127.0.0.1 - - [30/Apr/2024 10:34:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 10:34:22,074 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 10:34:27,516 - INFO: 127.0.0.1 - - [30/Apr/2024 10:34:27] "POST / HTTP/1.1" 200 -
+2024-04-30 10:34:27,546 - INFO: 127.0.0.1 - - [30/Apr/2024 10:34:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 10:36:08,347 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 10:36:08,432 - INFO:  * Restarting with stat
+2024-04-30 10:36:08,824 - INFO: Scheduler started
+2024-04-30 10:36:08,828 - WARNING:  * Debugger is active!
+2024-04-30 10:36:08,829 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 10:36:25,257 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 10:36:31,123 - INFO: 127.0.0.1 - - [30/Apr/2024 10:36:31] "POST / HTTP/1.1" 200 -
+2024-04-30 10:36:31,150 - INFO: 127.0.0.1 - - [30/Apr/2024 10:36:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 10:52:06,124 - INFO: Scheduler started
+2024-04-30 10:52:06,129 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-04-30 10:52:06,129 - INFO:  * Restarting with stat
+2024-04-30 10:52:06,530 - INFO: Scheduler started
+2024-04-30 10:52:06,534 - WARNING:  * Debugger is active!
+2024-04-30 10:52:06,534 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 10:52:18,399 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 10:52:23,953 - INFO: 127.0.0.1 - - [30/Apr/2024 10:52:23] "POST / HTTP/1.1" 200 -
+2024-04-30 10:52:23,977 - INFO: 127.0.0.1 - - [30/Apr/2024 10:52:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 10:52:35,272 - INFO: 127.0.0.1 - - [30/Apr/2024 10:52:35] "GET / HTTP/1.1" 200 -
+2024-04-30 10:52:35,319 - INFO: 127.0.0.1 - - [30/Apr/2024 10:52:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 10:53:05,427 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 10:53:10,820 - INFO: 127.0.0.1 - - [30/Apr/2024 10:53:10] "POST / HTTP/1.1" 200 -
+2024-04-30 10:53:10,846 - INFO: 127.0.0.1 - - [30/Apr/2024 10:53:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 10:54:08,813 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 10:54:08,892 - INFO:  * Restarting with stat
+2024-04-30 10:54:09,302 - INFO: Scheduler started
+2024-04-30 10:54:09,306 - WARNING:  * Debugger is active!
+2024-04-30 10:54:09,306 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 10:54:42,640 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 10:54:50,077 - INFO: 127.0.0.1 - - [30/Apr/2024 10:54:50] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 10:54:50,097 - INFO: 127.0.0.1 - - [30/Apr/2024 10:54:50] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 10:54:50,098 - INFO: 127.0.0.1 - - [30/Apr/2024 10:54:50] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 10:54:50,105 - INFO: 127.0.0.1 - - [30/Apr/2024 10:54:50] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 10:55:07,844 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 10:55:14,395 - INFO: 127.0.0.1 - - [30/Apr/2024 10:55:14] "POST / HTTP/1.1" 200 -
+2024-04-30 10:55:14,424 - INFO: 127.0.0.1 - - [30/Apr/2024 10:55:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 10:59:17,730 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 10:59:17,810 - INFO:  * Restarting with stat
+2024-04-30 10:59:18,209 - INFO: Scheduler started
+2024-04-30 10:59:18,213 - WARNING:  * Debugger is active!
+2024-04-30 10:59:18,213 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 10:59:32,595 - INFO: Scheduler started
+2024-04-30 10:59:32,599 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-04-30 10:59:32,600 - INFO:  * Restarting with stat
+2024-04-30 10:59:32,991 - INFO: Scheduler started
+2024-04-30 10:59:32,995 - WARNING:  * Debugger is active!
+2024-04-30 10:59:32,995 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 10:59:41,266 - INFO: 127.0.0.1 - - [30/Apr/2024 10:59:41] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 10:59:41,284 - INFO: 127.0.0.1 - - [30/Apr/2024 10:59:41] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 10:59:41,285 - INFO: 127.0.0.1 - - [30/Apr/2024 10:59:41] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 10:59:41,292 - INFO: 127.0.0.1 - - [30/Apr/2024 10:59:41] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 10:59:47,674 - INFO: 127.0.0.1 - - [30/Apr/2024 10:59:47] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 10:59:47,694 - INFO: 127.0.0.1 - - [30/Apr/2024 10:59:47] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 10:59:47,695 - INFO: 127.0.0.1 - - [30/Apr/2024 10:59:47] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 10:59:47,704 - INFO: 127.0.0.1 - - [30/Apr/2024 10:59:47] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 11:02:57,358 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 11:02:57,437 - INFO:  * Restarting with stat
+2024-04-30 11:02:57,833 - INFO: Scheduler started
+2024-04-30 11:02:57,837 - WARNING:  * Debugger is active!
+2024-04-30 11:02:57,837 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 11:03:06,555 - INFO: Scheduler started
+2024-04-30 11:03:06,559 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-04-30 11:03:06,560 - INFO:  * Restarting with stat
+2024-04-30 11:03:06,951 - INFO: Scheduler started
+2024-04-30 11:03:06,954 - WARNING:  * Debugger is active!
+2024-04-30 11:03:06,955 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 11:03:17,709 - INFO: 127.0.0.1 - - [30/Apr/2024 11:03:17] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 11:03:17,730 - INFO: 127.0.0.1 - - [30/Apr/2024 11:03:17] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 11:03:17,730 - INFO: 127.0.0.1 - - [30/Apr/2024 11:03:17] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 11:03:17,747 - INFO: 127.0.0.1 - - [30/Apr/2024 11:03:17] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 11:04:12,645 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 11:04:12,726 - INFO:  * Restarting with stat
+2024-04-30 11:04:13,122 - INFO: Scheduler started
+2024-04-30 11:04:13,126 - WARNING:  * Debugger is active!
+2024-04-30 11:04:13,126 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 11:04:30,330 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 11:04:30,410 - INFO:  * Restarting with stat
+2024-04-30 11:04:30,832 - INFO: Scheduler started
+2024-04-30 11:04:30,837 - WARNING:  * Debugger is active!
+2024-04-30 11:04:30,837 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 11:04:47,999 - INFO: Scheduler started
+2024-04-30 11:04:48,003 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-04-30 11:04:48,004 - INFO:  * Restarting with stat
+2024-04-30 11:04:48,399 - INFO: Scheduler started
+2024-04-30 11:04:48,403 - WARNING:  * Debugger is active!
+2024-04-30 11:04:48,403 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 11:04:52,008 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 11:04:57,989 - INFO: 127.0.0.1 - - [30/Apr/2024 11:04:57] "POST / HTTP/1.1" 200 -
+2024-04-30 11:04:58,010 - INFO: 127.0.0.1 - - [30/Apr/2024 11:04:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 11:05:09,794 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 11:05:15,689 - INFO: 127.0.0.1 - - [30/Apr/2024 11:05:15] "POST / HTTP/1.1" 200 -
+2024-04-30 11:05:15,717 - INFO: 127.0.0.1 - - [30/Apr/2024 11:05:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 11:15:42,790 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 11:15:48,637 - INFO: 127.0.0.1 - - [30/Apr/2024 11:15:48] "POST / HTTP/1.1" 200 -
+2024-04-30 11:15:48,667 - INFO: 127.0.0.1 - - [30/Apr/2024 11:15:48] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-30 11:17:56,695 - INFO: 127.0.0.1 - - [30/Apr/2024 11:17:56] "GET /analytics HTTP/1.1" 200 -
+2024-04-30 11:17:56,734 - INFO: 127.0.0.1 - - [30/Apr/2024 11:17:56] "GET /static/page_load_time.png HTTP/1.1" 200 -
+2024-04-30 11:17:56,735 - INFO: 127.0.0.1 - - [30/Apr/2024 11:17:56] "GET /static/uptime_status.png HTTP/1.1" 200 -
+2024-04-30 11:17:56,735 - INFO: 127.0.0.1 - - [30/Apr/2024 11:17:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 11:19:47,545 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 11:19:54,298 - INFO: 127.0.0.1 - - [30/Apr/2024 11:19:54] "POST / HTTP/1.1" 200 -
+2024-04-30 11:19:54,325 - INFO: 127.0.0.1 - - [30/Apr/2024 11:19:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 11:20:14,343 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 11:20:19,785 - INFO: 127.0.0.1 - - [30/Apr/2024 11:20:19] "POST / HTTP/1.1" 200 -
+2024-04-30 11:20:19,809 - INFO: 127.0.0.1 - - [30/Apr/2024 11:20:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 11:20:32,443 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 11:20:37,611 - INFO: 127.0.0.1 - - [30/Apr/2024 11:20:37] "POST / HTTP/1.1" 200 -
+2024-04-30 11:20:37,624 - INFO: 127.0.0.1 - - [30/Apr/2024 11:20:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

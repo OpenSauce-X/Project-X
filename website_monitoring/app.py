@@ -36,16 +36,16 @@ def perform_login_transaction(url):
         return False
 
 def send_email_notification(subject, message, recipient_email):
-    sender_email = 'your_email@example.com'
-    password = 'your_password'
+    sender_email = 'rishirajr@spanidea.com'
+    password = 'tspkfjtzfanqorwz'
 
     msg = MIMEText(message)
-    msg['Subject'] = subject
-    msg['From'] = sender_email
+    msg['Subject'] = 'Your website is down'
+    msg['From'] = 'rishirajr@spanidea.com'
     msg['To'] = recipient_email
 
     try:
-        server = smtplib.SMTP_SSL('smtp.example.com', 465)
+        server = smtplib.SMTP_SSL('smtp.mail.yahoo.com', 465)
         server.login(sender_email, password)
         server.sendmail(sender_email, recipient_email, msg.as_string())
         print("Email notification sent successfully.")
@@ -70,7 +70,7 @@ def log_performance_data(url, status, load_time):
 # Configure logging
 logging.basicConfig(filename='monitoring.log', level=logging.INFO, format='%(asctime)s - %(levelname)s: %(message)s')
 
-def monitor_website(website_url, measure_speed, login_transaction):
+def monitor_website(website_url, measure_speed, login_transaction,recipient_email):
     status = check_website(website_url)
     page_load_time = None
     transaction_status = None
@@ -89,7 +89,7 @@ def monitor_website(website_url, measure_speed, login_transaction):
     log_performance_data(website_url, status, page_load_time)
 
     if not status:
-        send_email_notification("Website Down Alert", f"The website {website_url} is down. Please take immediate action.", "recipient@example.com")
+        send_email_notification("Website Down Alert", f"The website {website_url} is down. Please take immediate action.", "rishihello91@gmail.com")
         logging.warning(f"Website {website_url} is down at {datetime.datetime.now()}")
 
 # Initialize BackgroundScheduler
@@ -103,6 +103,7 @@ def index():
     if request.method == 'POST':
         website_url = request.form['website_url']
         website_url = append_http(website_url)  # Ensure URL has schema before using it
+        recipient_email = request.form['recipient_email']  # Get recipient email from form data
         try:
             time_interval = int(request.form['time_interval'])
         except KeyError:
@@ -114,7 +115,7 @@ def index():
         status = check_website(website_url)
         
          # Schedule website monitoring task
-        scheduler.add_job(monitor_website, 'interval', minutes=time_interval, args=[website_url, measure_speed, login_transaction])
+        scheduler.add_job(monitor_website, 'interval', minutes=time_interval, args=(website_url, measure_speed, login_transaction,recipient_email))
         
         page_load_time = None
         transaction_status = None
@@ -127,7 +128,7 @@ def index():
             transaction_status = perform_login_transaction(website_url)
         log_performance_data(website_url, status, page_load_time)
         if not status:
-            send_email_notification("Website Down Alert", f"The website {website_url} is down. Please take immediate action.", "recipient@example.com")
+            send_email_notification("Website Down Alert", f"The website {website_url} is down. Please take immediate action.", recipient_email)
         return render_template('index.html', website_url=website_url, status=status, page_load_time=page_load_time, measure_speed=measure_speed, transaction_status=transaction_status)
     return render_template('index.html')
 
