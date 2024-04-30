@@ -17,8 +17,11 @@
         <label for="measure_speed">Measure Page Speed</label><br>
         <input type="checkbox" id="login_transaction" name="login_transaction">
         <label for="login_transaction">Perform Login Transaction</label><br>
+        <label for="recipient_email">Recipient Email:</label><br>
+        <input type="email" id="recipient_email" name="recipient_email" required><br>
         <button type="submit">Start Monitoring</button>
     </form>
+
     {% if website_url %}
         <p>Website: {{ website_url }}</p>
         {% if status %}
