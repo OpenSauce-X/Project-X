@@ -1,12 +1,16 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Monitoring</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Website Monitoring Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
 </head>
 <body>
+ 
+    <!-- Your content goes here -->
+    
     <h1>"Project X"</h1>
     <form method="POST">
         <label for="website_url">Enter Website URL:</label><br>
@@ -21,7 +25,7 @@
         <input type="email" id="recipient_email" name="recipient_email" required><br>
         <button type="submit">Start Monitoring</button>
     </form>
-
+    
     {% if website_url %}
         <p>Website: {{ website_url }}</p>
         {% if status %}
@@ -40,5 +44,8 @@
             {% endif %}
         {% endif %}
     {% endif %}
-</body>
-</html>
+    
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5
