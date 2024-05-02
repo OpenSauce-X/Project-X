@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Default Title{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <!-- Your navbar content here -->
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <!-- Add more navigation links as needed -->
+        </ul>
+    </nav>
+
+    <div class="content">
+        {% block content %}
+        <!-- Default content if not overridden by child template -->
+        {% endblock %}
+    </div>
+</body>
+</html>

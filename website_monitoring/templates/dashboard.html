@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+ 
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Monitoring Dashboard</title>
+</head>
+<body>
+    <h1>Website Monitoring Dashboard</h1>
+    <h2>Websites</h2>
+    <table>
+        <tr>
+            <th>Website</th>
+            <th>Status</th>
+            <th>Speed</th>
+            <th>Login Transaction</th>
+            <th>Delete</th>
+        </tr>
+        {% for website in websites %}
+            <tr>
+                <td>{{ website.url }}</td>
+                <td>{% if website.status == True %}UP{% else %}DOWN{% endif %}</td>
+                <td>{% if website.measure_speed == True %}Enabled{% else %}Disabled{% endif %}</td>
+                <td>{% if website.login_transaction == True %}Enabled{% else %}Disabled{% endif %}</td>
+                <td><a href="/delete_website/{{ website._id }}">Delete</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+    <h2>Add Website</h2>
+    <form action="/add_website" method="post">
+        <label for="url">URL:</label>
+        <input type="text" id="url" name="url" required>
+        <label for="recipient_email">Recipient Email:</label>
+        <input type="email" id="recipient_email" name="recipient_email" required>
+        <label for="time_interval">Check Interval (minutes):</label>
+        <input type="number" id="time_interval" name="time_interval" required>
+        <input type="checkbox" id="measure_speed" name="measure_speed">
+        <label for="measure_speed">Measure Speed</label>
+        <input type="checkbox" id="login_transaction" name="login_transaction">
+        <label for="login_transaction">Perform Login Transaction</label>
+        <button type="submit">Add Website</button>
+    </form>
+</body>
+</html>

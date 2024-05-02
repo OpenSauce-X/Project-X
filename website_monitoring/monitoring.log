@@ -174,3 +174,1594 @@
 2024-04-30 11:20:32,443 - INFO: Added job "monitor_website" to job store "default"
 2024-04-30 11:20:37,611 - INFO: 127.0.0.1 - - [30/Apr/2024 11:20:37] "POST / HTTP/1.1" 200 -
 2024-04-30 11:20:37,624 - INFO: 127.0.0.1 - - [30/Apr/2024 11:20:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 11:31:10,242 - INFO: Scheduler started
+2024-04-30 11:31:10,246 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-04-30 11:31:10,247 - INFO:  * Restarting with stat
+2024-04-30 11:31:10,642 - INFO: Scheduler started
+2024-04-30 11:31:10,645 - WARNING:  * Debugger is active!
+2024-04-30 11:31:10,646 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 11:31:16,270 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 11:31:21,935 - INFO: 127.0.0.1 - - [30/Apr/2024 11:31:21] "POST / HTTP/1.1" 200 -
+2024-04-30 11:31:21,949 - INFO: 127.0.0.1 - - [30/Apr/2024 11:31:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 11:31:30,125 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 11:31:30,152 - INFO: 127.0.0.1 - - [30/Apr/2024 11:31:30] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 11:31:30,172 - INFO: 127.0.0.1 - - [30/Apr/2024 11:31:30] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 11:31:30,173 - INFO: 127.0.0.1 - - [30/Apr/2024 11:31:30] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 11:31:30,179 - INFO: 127.0.0.1 - - [30/Apr/2024 11:31:30] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 11:31:47,805 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 11:31:47,831 - INFO: 127.0.0.1 - - [30/Apr/2024 11:31:47] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 11:31:47,852 - INFO: 127.0.0.1 - - [30/Apr/2024 11:31:47] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 11:31:47,852 - INFO: 127.0.0.1 - - [30/Apr/2024 11:31:47] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 11:31:47,860 - INFO: 127.0.0.1 - - [30/Apr/2024 11:31:47] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 11:32:44,775 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 11:32:52,369 - INFO: 127.0.0.1 - - [30/Apr/2024 11:32:52] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 11:32:52,394 - INFO: 127.0.0.1 - - [30/Apr/2024 11:32:52] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 11:32:52,394 - INFO: 127.0.0.1 - - [30/Apr/2024 11:32:52] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 11:32:52,410 - INFO: 127.0.0.1 - - [30/Apr/2024 11:32:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 11:33:24,090 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 11:33:24,199 - INFO:  * Restarting with stat
+2024-04-30 11:33:24,677 - INFO: Scheduler started
+2024-04-30 11:33:24,683 - WARNING:  * Debugger is active!
+2024-04-30 11:33:24,683 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 11:33:33,061 - INFO: 127.0.0.1 - - [30/Apr/2024 11:33:33] "GET / HTTP/1.1" 200 -
+2024-04-30 11:33:33,084 - INFO: 127.0.0.1 - - [30/Apr/2024 11:33:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 11:33:37,353 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 11:33:40,439 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 11:33:44,800 - INFO: 127.0.0.1 - - [30/Apr/2024 11:33:44] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 11:33:49,570 - INFO: 127.0.0.1 - - [30/Apr/2024 11:33:49] "POST / HTTP/1.1" 200 -
+2024-04-30 11:33:49,598 - INFO: 127.0.0.1 - - [30/Apr/2024 11:33:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 11:39:44,829 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 11:39:44,921 - INFO:  * Restarting with stat
+2024-04-30 11:39:45,320 - INFO: Scheduler started
+2024-04-30 11:39:45,323 - WARNING:  * Debugger is active!
+2024-04-30 11:39:45,324 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 11:39:59,198 - INFO: Scheduler started
+2024-04-30 11:39:59,202 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-04-30 11:39:59,203 - INFO:  * Restarting with stat
+2024-04-30 11:39:59,610 - INFO: Scheduler started
+2024-04-30 11:39:59,614 - WARNING:  * Debugger is active!
+2024-04-30 11:39:59,614 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 11:40:49,705 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 11:40:56,005 - INFO: 127.0.0.1 - - [30/Apr/2024 11:40:56] "POST / HTTP/1.1" 200 -
+2024-04-30 11:40:56,030 - INFO: 127.0.0.1 - - [30/Apr/2024 11:40:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 11:57:07,069 - INFO: Scheduler started
+2024-04-30 11:57:07,074 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-04-30 11:57:07,075 - INFO:  * Restarting with stat
+2024-04-30 11:57:07,467 - INFO: Scheduler started
+2024-04-30 11:57:07,472 - WARNING:  * Debugger is active!
+2024-04-30 11:57:07,472 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 11:57:24,323 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 11:57:24,568 - INFO: 127.0.0.1 - - [30/Apr/2024 11:57:24] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 11:57:24,602 - INFO: 127.0.0.1 - - [30/Apr/2024 11:57:24] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 11:57:24,603 - INFO: 127.0.0.1 - - [30/Apr/2024 11:57:24] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 11:57:24,611 - INFO: 127.0.0.1 - - [30/Apr/2024 11:57:24] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 11:57:24,612 - INFO: 127.0.0.1 - - [30/Apr/2024 11:57:24] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 11:57:29,680 - INFO: 127.0.0.1 - - [30/Apr/2024 11:57:29] "POST / HTTP/1.1" 200 -
+2024-04-30 11:59:32,496 - INFO: 127.0.0.1 - - [30/Apr/2024 11:59:32] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 11:59:32,514 - INFO: 127.0.0.1 - - [30/Apr/2024 11:59:32] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 11:59:32,514 - INFO: 127.0.0.1 - - [30/Apr/2024 11:59:32] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 11:59:32,522 - INFO: 127.0.0.1 - - [30/Apr/2024 11:59:32] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 11:59:34,143 - INFO: 127.0.0.1 - - [30/Apr/2024 11:59:34] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 11:59:34,169 - INFO: 127.0.0.1 - - [30/Apr/2024 11:59:34] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 11:59:34,170 - INFO: 127.0.0.1 - - [30/Apr/2024 11:59:34] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 11:59:34,179 - INFO: 127.0.0.1 - - [30/Apr/2024 11:59:34] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 11:59:48,943 - INFO: 127.0.0.1 - - [30/Apr/2024 11:59:48] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 11:59:48,972 - INFO: 127.0.0.1 - - [30/Apr/2024 11:59:48] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 11:59:48,976 - INFO: 127.0.0.1 - - [30/Apr/2024 11:59:48] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 11:59:48,986 - INFO: 127.0.0.1 - - [30/Apr/2024 11:59:48] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:02:44,537 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:44] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 12:02:44,555 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:44] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:02:44,556 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:44] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:02:44,562 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:44] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:02:45,376 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:45] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 12:02:45,393 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:45] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:02:45,393 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:45] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:02:45,399 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:45] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:02:45,737 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:45] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 12:02:45,759 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:45] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:02:45,760 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:45] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:02:45,766 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:45] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:02:45,890 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:45] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 12:02:45,902 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:45] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:02:45,902 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:45] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:02:45,912 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:45] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:02:46,253 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:46] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 12:02:46,277 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:46] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:02:46,277 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:46] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:02:46,283 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:46] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:02:46,418 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:46] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 12:02:46,433 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:46] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:02:46,434 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:46] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:02:46,444 - INFO: 127.0.0.1 - - [30/Apr/2024 12:02:46] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:03:08,407 - INFO: 127.0.0.1 - - [30/Apr/2024 12:03:08] "[33mGET /addwebsite HTTP/1.1[0m" 404 -
+2024-04-30 12:03:18,168 - INFO: 127.0.0.1 - - [30/Apr/2024 12:03:18] "[31m[1mGET /add_website HTTP/1.1[0m" 405 -
+2024-04-30 12:06:56,241 - INFO: 127.0.0.1 - - [30/Apr/2024 12:06:56] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 12:06:56,262 - INFO: 127.0.0.1 - - [30/Apr/2024 12:06:56] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:06:56,262 - INFO: 127.0.0.1 - - [30/Apr/2024 12:06:56] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:06:56,269 - INFO: 127.0.0.1 - - [30/Apr/2024 12:06:56] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:23:51,454 - INFO: 127.0.0.1 - - [30/Apr/2024 12:23:51] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 12:23:51,474 - INFO: 127.0.0.1 - - [30/Apr/2024 12:23:51] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:23:51,475 - INFO: 127.0.0.1 - - [30/Apr/2024 12:23:51] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:23:51,482 - INFO: 127.0.0.1 - - [30/Apr/2024 12:23:51] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:43:25,010 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:25] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 12:43:25,035 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:25] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:43:25,035 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:25] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:43:25,048 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:25] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:43:25,896 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:25] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 12:43:25,914 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:25] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:43:25,914 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:25] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:43:25,921 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:25] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:43:26,224 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:26] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 12:43:26,245 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:26] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:43:26,246 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:26] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:43:26,253 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:26] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:43:26,810 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:26] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 12:43:26,822 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:26] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:43:26,822 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:26] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:43:26,830 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:26] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:43:37,090 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:37] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 12:43:37,123 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:37] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:43:37,123 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:37] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:43:37,134 - INFO: 127.0.0.1 - - [30/Apr/2024 12:43:37] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:44:28,772 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 12:44:33,953 - INFO: 127.0.0.1 - - [30/Apr/2024 12:44:33] "POST / HTTP/1.1" 200 -
+2024-04-30 12:44:33,980 - INFO: 127.0.0.1 - - [30/Apr/2024 12:44:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 12:44:56,817 - INFO: 127.0.0.1 - - [30/Apr/2024 12:44:56] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-04-30 12:44:56,853 - INFO: 127.0.0.1 - - [30/Apr/2024 12:44:56] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:44:56,853 - INFO: 127.0.0.1 - - [30/Apr/2024 12:44:56] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:44:56,862 - INFO: 127.0.0.1 - - [30/Apr/2024 12:44:56] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:45:28,772 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:45:28 IST)" (scheduled at 2024-04-30 12:45:28.772014+05:30)
+2024-04-30 12:45:29,387 - INFO: Pinged website https://rishi.opensaiyan.biz/ at 2024-04-30 12:45:29.387098 with page load time: 0.1509244441986084 seconds
+2024-04-30 12:45:29,392 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:46:28 IST)" executed successfully
+2024-04-30 12:46:28,772 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:47:28 IST)" (scheduled at 2024-04-30 12:46:28.772014+05:30)
+2024-04-30 12:46:29,243 - INFO: Pinged website https://rishi.opensaiyan.biz/ at 2024-04-30 12:46:29.243754 with page load time: 0.23119688034057617 seconds
+2024-04-30 12:46:29,248 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:47:28 IST)" executed successfully
+2024-04-30 12:47:28,772 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:48:28 IST)" (scheduled at 2024-04-30 12:47:28.772014+05:30)
+2024-04-30 12:47:29,147 - INFO: Pinged website https://rishi.opensaiyan.biz/ at 2024-04-30 12:47:29.147717 with page load time: 0.18726015090942383 seconds
+2024-04-30 12:47:29,151 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:48:28 IST)" executed successfully
+2024-04-30 12:48:28,772 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:49:28 IST)" (scheduled at 2024-04-30 12:48:28.772014+05:30)
+2024-04-30 12:48:29,129 - INFO: Pinged website https://rishi.opensaiyan.biz/ at 2024-04-30 12:48:29.129062 with page load time: 0.1646428108215332 seconds
+2024-04-30 12:48:29,133 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:49:28 IST)" executed successfully
+2024-04-30 12:49:28,772 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:50:28 IST)" (scheduled at 2024-04-30 12:49:28.772014+05:30)
+2024-04-30 12:49:29,043 - INFO: Pinged website https://rishi.opensaiyan.biz/ at 2024-04-30 12:49:29.042942 with page load time: 0.12917017936706543 seconds
+2024-04-30 12:49:29,047 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:50:28 IST)" executed successfully
+2024-04-30 12:50:28,772 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:51:28 IST)" (scheduled at 2024-04-30 12:50:28.772014+05:30)
+2024-04-30 12:50:29,034 - INFO: Pinged website https://rishi.opensaiyan.biz/ at 2024-04-30 12:50:29.034256 with page load time: 0.13235855102539062 seconds
+2024-04-30 12:50:29,038 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:51:28 IST)" executed successfully
+2024-04-30 12:51:28,772 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:52:28 IST)" (scheduled at 2024-04-30 12:51:28.772014+05:30)
+2024-04-30 12:51:29,598 - INFO: Pinged website https://rishi.opensaiyan.biz/ at 2024-04-30 12:51:29.598233 with page load time: 0.2548341751098633 seconds
+2024-04-30 12:51:29,603 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:52:28 IST)" executed successfully
+2024-04-30 12:52:28,772 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:53:28 IST)" (scheduled at 2024-04-30 12:52:28.772014+05:30)
+2024-04-30 12:52:29,120 - INFO: Pinged website https://rishi.opensaiyan.biz/ at 2024-04-30 12:52:29.120446 with page load time: 0.1582784652709961 seconds
+2024-04-30 12:52:29,124 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:53:28 IST)" executed successfully
+2024-04-30 12:52:31,395 - INFO: 127.0.0.1 - - [30/Apr/2024 12:52:31] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 12:53:02,194 - INFO: 127.0.0.1 - - [30/Apr/2024 12:53:02] "[35m[1mPOST /add_website HTTP/1.1[0m" 500 -
+2024-04-30 12:53:02,226 - INFO: 127.0.0.1 - - [30/Apr/2024 12:53:02] "GET /add_website?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:53:02,226 - INFO: 127.0.0.1 - - [30/Apr/2024 12:53:02] "GET /add_website?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:53:02,232 - INFO: 127.0.0.1 - - [30/Apr/2024 12:53:02] "GET /add_website?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:53:02,235 - INFO: 127.0.0.1 - - [30/Apr/2024 12:53:02] "GET /add_website?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:53:28,772 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:54:28 IST)" (scheduled at 2024-04-30 12:53:28.772014+05:30)
+2024-04-30 12:53:29,025 - INFO: Pinged website https://rishi.opensaiyan.biz/ at 2024-04-30 12:53:29.025501 with page load time: 0.1199350357055664 seconds
+2024-04-30 12:53:29,029 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 12:54:28 IST)" executed successfully
+2024-04-30 12:54:17,383 - INFO: Scheduler started
+2024-04-30 12:54:17,390 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-04-30 12:54:17,391 - INFO:  * Restarting with stat
+2024-04-30 12:54:17,822 - INFO: Scheduler started
+2024-04-30 12:54:17,827 - WARNING:  * Debugger is active!
+2024-04-30 12:54:17,827 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 12:54:27,920 - INFO: 127.0.0.1 - - [30/Apr/2024 12:54:27] "[35m[1mPOST /add_website HTTP/1.1[0m" 500 -
+2024-04-30 12:54:27,939 - INFO: 127.0.0.1 - - [30/Apr/2024 12:54:27] "GET /add_website?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:54:27,940 - INFO: 127.0.0.1 - - [30/Apr/2024 12:54:27] "GET /add_website?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:54:27,951 - INFO: 127.0.0.1 - - [30/Apr/2024 12:54:27] "GET /add_website?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:54:35,109 - INFO: 127.0.0.1 - - [30/Apr/2024 12:54:35] "[35m[1mPOST /add_website HTTP/1.1[0m" 500 -
+2024-04-30 12:54:35,146 - INFO: 127.0.0.1 - - [30/Apr/2024 12:54:35] "GET /add_website?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:54:35,146 - INFO: 127.0.0.1 - - [30/Apr/2024 12:54:35] "GET /add_website?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:54:35,154 - INFO: 127.0.0.1 - - [30/Apr/2024 12:54:35] "GET /add_website?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 12:55:53,921 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 12:55:54,001 - INFO:  * Restarting with stat
+2024-04-30 12:55:54,422 - INFO: Scheduler started
+2024-04-30 12:55:54,427 - WARNING:  * Debugger is active!
+2024-04-30 12:55:54,427 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 12:55:57,473 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 12:55:57,558 - INFO:  * Restarting with stat
+2024-04-30 12:55:57,964 - INFO: Scheduler started
+2024-04-30 12:55:57,968 - WARNING:  * Debugger is active!
+2024-04-30 12:55:57,969 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 12:56:09,102 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 12:56:09,190 - INFO:  * Restarting with stat
+2024-04-30 12:56:09,585 - INFO: Scheduler started
+2024-04-30 12:56:09,590 - WARNING:  * Debugger is active!
+2024-04-30 12:56:09,590 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 12:56:11,620 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 12:56:11,705 - INFO:  * Restarting with stat
+2024-04-30 12:56:12,099 - INFO: Scheduler started
+2024-04-30 12:56:12,104 - WARNING:  * Debugger is active!
+2024-04-30 12:56:12,104 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 12:56:17,172 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 12:56:17,254 - INFO:  * Restarting with stat
+2024-04-30 12:56:17,650 - INFO: Scheduler started
+2024-04-30 12:56:17,655 - WARNING:  * Debugger is active!
+2024-04-30 12:56:17,655 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 12:56:21,708 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 12:56:21,790 - INFO:  * Restarting with stat
+2024-04-30 12:56:22,179 - INFO: Scheduler started
+2024-04-30 12:56:22,183 - WARNING:  * Debugger is active!
+2024-04-30 12:56:22,184 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 12:56:23,204 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 12:56:23,286 - INFO:  * Restarting with stat
+2024-04-30 12:56:23,689 - INFO: Scheduler started
+2024-04-30 12:56:23,694 - WARNING:  * Debugger is active!
+2024-04-30 12:56:23,694 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 12:56:31,738 - INFO: Scheduler started
+2024-04-30 12:56:31,743 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-04-30 12:56:31,744 - INFO:  * Restarting with stat
+2024-04-30 12:56:32,139 - INFO: Scheduler started
+2024-04-30 12:56:32,144 - WARNING:  * Debugger is active!
+2024-04-30 12:56:32,144 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 12:56:40,906 - INFO: 127.0.0.1 - - [30/Apr/2024 12:56:40] "[35m[1mPOST /add_website HTTP/1.1[0m" 500 -
+2024-04-30 12:56:40,937 - INFO: 127.0.0.1 - - [30/Apr/2024 12:56:40] "GET /add_website?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 12:56:40,938 - INFO: 127.0.0.1 - - [30/Apr/2024 12:56:40] "GET /add_website?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 12:56:40,946 - INFO: 127.0.0.1 - - [30/Apr/2024 12:56:40] "GET /add_website?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 14:10:27,028 - INFO: Scheduler started
+2024-04-30 14:10:27,033 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-04-30 14:10:27,033 - INFO:  * Restarting with stat
+2024-04-30 14:10:27,428 - INFO: Scheduler started
+2024-04-30 14:10:27,432 - WARNING:  * Debugger is active!
+2024-04-30 14:10:27,432 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 14:10:35,949 - INFO: 127.0.0.1 - - [30/Apr/2024 14:10:35] "[32mPOST /add_website HTTP/1.1[0m" 302 -
+2024-04-30 14:10:35,955 - INFO: 127.0.0.1 - - [30/Apr/2024 14:10:35] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:10:58,116 - INFO: 127.0.0.1 - - [30/Apr/2024 14:10:58] "[32mPOST /add_website HTTP/1.1[0m" 302 -
+2024-04-30 14:10:58,119 - INFO: 127.0.0.1 - - [30/Apr/2024 14:10:58] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:11:07,901 - INFO: 127.0.0.1 - - [30/Apr/2024 14:11:07] "GET / HTTP/1.1" 200 -
+2024-04-30 14:11:07,934 - INFO: 127.0.0.1 - - [30/Apr/2024 14:11:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 14:11:12,386 - INFO: 127.0.0.1 - - [30/Apr/2024 14:11:12] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:11:37,725 - INFO: 127.0.0.1 - - [30/Apr/2024 14:11:37] "[32mPOST /add_website HTTP/1.1[0m" 302 -
+2024-04-30 14:11:37,729 - INFO: 127.0.0.1 - - [30/Apr/2024 14:11:37] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:12:05,438 - INFO: 127.0.0.1 - - [30/Apr/2024 14:12:05] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:14:12,754 - INFO: 127.0.0.1 - - [30/Apr/2024 14:14:12] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:14:19,116 - INFO: 127.0.0.1 - - [30/Apr/2024 14:14:19] "GET / HTTP/1.1" 200 -
+2024-04-30 14:14:19,150 - INFO: 127.0.0.1 - - [30/Apr/2024 14:14:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 14:14:44,953 - INFO: 127.0.0.1 - - [30/Apr/2024 14:14:44] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:19:18,371 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 14:19:18,463 - INFO:  * Restarting with stat
+2024-04-30 14:19:18,898 - INFO: Scheduler started
+2024-04-30 14:19:18,904 - WARNING:  * Debugger is active!
+2024-04-30 14:19:18,904 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 14:19:20,937 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-04-30 14:19:21,070 - INFO:  * Restarting with stat
+2024-04-30 14:20:45,160 - INFO: Scheduler started
+2024-04-30 14:20:45,166 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-04-30 14:20:45,167 - INFO:  * Restarting with stat
+2024-04-30 14:20:45,610 - INFO: Scheduler started
+2024-04-30 14:20:45,616 - WARNING:  * Debugger is active!
+2024-04-30 14:20:45,616 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 14:20:50,694 - INFO: 127.0.0.1 - - [30/Apr/2024 14:20:50] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:23:03,312 - INFO: 127.0.0.1 - - [30/Apr/2024 14:23:03] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:23:22,178 - INFO: 127.0.0.1 - - [30/Apr/2024 14:23:22] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:23:47,342 - INFO: 127.0.0.1 - - [30/Apr/2024 14:23:47] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:23:49,591 - INFO: 127.0.0.1 - - [30/Apr/2024 14:23:49] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:24:43,073 - INFO: 127.0.0.1 - - [30/Apr/2024 14:24:43] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:25:30,142 - INFO: 127.0.0.1 - - [30/Apr/2024 14:25:30] "[32mPOST /add_website HTTP/1.1[0m" 302 -
+2024-04-30 14:25:30,146 - INFO: 127.0.0.1 - - [30/Apr/2024 14:25:30] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:25:34,362 - INFO: 127.0.0.1 - - [30/Apr/2024 14:25:34] "[32mGET /delete_website/3 HTTP/1.1[0m" 302 -
+2024-04-30 14:25:34,366 - INFO: 127.0.0.1 - - [30/Apr/2024 14:25:34] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:25:35,499 - INFO: 127.0.0.1 - - [30/Apr/2024 14:25:35] "[32mGET /delete_website/2 HTTP/1.1[0m" 302 -
+2024-04-30 14:25:35,504 - INFO: 127.0.0.1 - - [30/Apr/2024 14:25:35] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:25:36,377 - INFO: 127.0.0.1 - - [30/Apr/2024 14:25:36] "[32mGET /delete_website/1 HTTP/1.1[0m" 302 -
+2024-04-30 14:25:36,384 - INFO: 127.0.0.1 - - [30/Apr/2024 14:25:36] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:29:53,205 - INFO: 127.0.0.1 - - [30/Apr/2024 14:29:53] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:30:19,382 - INFO: 127.0.0.1 - - [30/Apr/2024 14:30:19] "[32mPOST /add_website HTTP/1.1[0m" 302 -
+2024-04-30 14:30:19,388 - INFO: 127.0.0.1 - - [30/Apr/2024 14:30:19] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:34:27,594 - INFO: 127.0.0.1 - - [30/Apr/2024 14:34:27] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:34:29,774 - INFO: 127.0.0.1 - - [30/Apr/2024 14:34:29] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:35:27,554 - INFO: 127.0.0.1 - - [30/Apr/2024 14:35:27] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:37:08,487 - INFO: 127.0.0.1 - - [30/Apr/2024 14:37:08] "[32mGET /delete_website/4 HTTP/1.1[0m" 302 -
+2024-04-30 14:37:08,491 - INFO: 127.0.0.1 - - [30/Apr/2024 14:37:08] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 14:37:55,064 - INFO: 127.0.0.1 - - [30/Apr/2024 14:37:55] "GET /analytics HTTP/1.1" 200 -
+2024-04-30 14:37:55,103 - INFO: 127.0.0.1 - - [30/Apr/2024 14:37:55] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-30 14:37:55,106 - INFO: 127.0.0.1 - - [30/Apr/2024 14:37:55] "GET /static/page_load_time.png HTTP/1.1" 200 -
+2024-04-30 14:37:55,106 - INFO: 127.0.0.1 - - [30/Apr/2024 14:37:55] "GET /static/uptime_status.png HTTP/1.1" 200 -
+2024-04-30 14:38:09,608 - INFO: 127.0.0.1 - - [30/Apr/2024 14:38:09] "[33mGET /static HTTP/1.1[0m" 404 -
+2024-04-30 14:38:21,838 - INFO: 127.0.0.1 - - [30/Apr/2024 14:38:21] "[33mGET /addwebsite HTTP/1.1[0m" 404 -
+2024-04-30 14:38:31,082 - INFO: 127.0.0.1 - - [30/Apr/2024 14:38:31] "[31m[1mGET /add_website HTTP/1.1[0m" 405 -
+2024-04-30 17:22:38,563 - INFO: 127.0.0.1 - - [30/Apr/2024 17:22:38] "GET / HTTP/1.1" 200 -
+2024-04-30 17:22:38,582 - INFO: 127.0.0.1 - - [30/Apr/2024 17:22:38] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-30 17:22:38,593 - INFO: 127.0.0.1 - - [30/Apr/2024 17:22:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-30 17:22:49,615 - INFO: 127.0.0.1 - - [30/Apr/2024 17:22:49] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 17:49:34,257 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:49:34,280 - INFO: 127.0.0.1 - - [30/Apr/2024 17:49:34] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 17:49:34,296 - INFO: 127.0.0.1 - - [30/Apr/2024 17:49:34] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 17:49:34,296 - INFO: 127.0.0.1 - - [30/Apr/2024 17:49:34] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 17:49:34,320 - INFO: 127.0.0.1 - - [30/Apr/2024 17:49:34] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:49:34,334 - INFO: 127.0.0.1 - - [30/Apr/2024 17:49:34] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:49:46,963 - INFO: 127.0.0.1 - - [30/Apr/2024 17:49:46] "GET / HTTP/1.1" 200 -
+2024-04-30 17:49:46,980 - INFO: 127.0.0.1 - - [30/Apr/2024 17:49:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 17:49:47,772 - INFO: 127.0.0.1 - - [30/Apr/2024 17:49:47] "GET / HTTP/1.1" 200 -
+2024-04-30 17:49:47,788 - INFO: 127.0.0.1 - - [30/Apr/2024 17:49:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 17:49:56,256 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:50:01,894 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:01] "POST / HTTP/1.1" 200 -
+2024-04-30 17:50:01,907 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 17:50:25,463 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:50:25,473 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:25] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 17:50:25,489 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:25] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 17:50:25,489 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:25] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 17:50:25,505 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:25] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:50:25,521 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:25] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:50:33,453 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:50:33,468 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:33] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 17:50:33,480 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:33] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 17:50:33,480 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:33] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 17:50:33,488 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:33] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:50:33,512 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:33] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:50:39,183 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:50:39,198 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:39] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 17:50:39,211 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:39] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 17:50:39,211 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:39] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 17:50:39,224 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:39] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:50:39,239 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:39] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:50:43,916 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:50:43,926 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:43] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 17:50:43,942 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:43] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 17:50:43,942 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:43] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 17:50:43,959 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:43] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:50:43,974 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:43] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:50:51,428 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:50:51,437 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:51] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 17:50:51,450 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:51] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 17:50:51,450 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:51] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 17:50:51,468 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:51] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:50:51,482 - INFO: 127.0.0.1 - - [30/Apr/2024 17:50:51] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:51:11,493 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:51:11,502 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:11] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 17:51:11,517 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:11] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 17:51:11,518 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:11] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 17:51:11,530 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:11] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:51:11,561 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:11] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:51:16,604 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:51:16,613 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:16] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 17:51:16,626 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:16] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 17:51:16,627 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:16] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 17:51:16,642 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:16] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:51:16,658 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:16] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:51:29,953 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:51:29,978 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:29] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 17:51:29,995 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:29] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 17:51:29,996 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:29] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 17:51:30,004 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:30] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:51:30,020 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:30] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:51:41,526 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:51:41,741 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:41] "POST / HTTP/1.1" 200 -
+2024-04-30 17:51:43,619 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:51:43,653 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:43] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 17:51:43,666 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:43] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 17:51:43,666 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:43] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 17:51:43,683 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:43] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:51:43,694 - INFO: 127.0.0.1 - - [30/Apr/2024 17:51:43] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:52:11,494 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 17:52:11 IST)" (scheduled at 2024-04-30 17:52:11.493466+05:30)
+2024-04-30 17:52:11,502 - ERROR: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 17:53:11 IST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 666, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 388, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f713248cb50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='rishi', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f713248cb50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py", line 80, in monitor_website
+    response = requests.get(website_url)
+  File "/usr/local/lib/python3.8/dist-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='rishi', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f713248cb50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-04-30 17:52:16,604 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 17:53:16 IST)" (scheduled at 2024-04-30 17:52:16.604095+05:30)
+2024-04-30 17:52:16,609 - ERROR: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 17:53:16 IST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 666, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 388, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f713248c100>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='hkgdv', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f713248c100>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py", line 80, in monitor_website
+    response = requests.get(website_url)
+  File "/usr/local/lib/python3.8/dist-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='hkgdv', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f713248c100>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-04-30 17:52:29,953 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 17:53:29 IST)" (scheduled at 2024-04-30 17:52:29.953023+05:30)
+2024-04-30 17:52:30,471 - ERROR: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 17:53:29 IST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 666, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 388, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f71324b43d0>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='rishi.opensaiyan.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f71324b43d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py", line 80, in monitor_website
+    response = requests.get(website_url)
+  File "/usr/local/lib/python3.8/dist-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='rishi.opensaiyan.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f71324b43d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2024-04-30 17:52:41,527 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 17:53:41 IST)" (scheduled at 2024-04-30 17:52:41.526484+05:30)
+2024-04-30 17:52:42,029 - INFO: Pinged website http://rishi.opensaiyan.biz at 2024-04-30 17:52:42.029491 with page load time: 0.08167362213134766 seconds
+2024-04-30 17:52:42,128 - INFO: Performed login transaction on website http://rishi.opensaiyan.biz at 2024-04-30 17:52:42.128426, transaction status: False
+2024-04-30 17:52:42,132 - INFO: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 17:53:41 IST)" executed successfully
+2024-04-30 17:52:43,619 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 17:53:43 IST)" (scheduled at 2024-04-30 17:52:43.619213+05:30)
+2024-04-30 17:52:43,648 - ERROR: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 17:53:43 IST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 666, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 388, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f71324b4c40>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='rishi.opensaiyan.biz1', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f71324b4c40>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py", line 80, in monitor_website
+    response = requests.get(website_url)
+  File "/usr/local/lib/python3.8/dist-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='rishi.opensaiyan.biz1', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f71324b4c40>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2024-04-30 17:52:55,333 - INFO: 127.0.0.1 - - [30/Apr/2024 17:52:55] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-30 17:52:57,856 - INFO: 127.0.0.1 - - [30/Apr/2024 17:52:57] "GET / HTTP/1.1" 200 -
+2024-04-30 17:52:57,878 - INFO: 127.0.0.1 - - [30/Apr/2024 17:52:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 17:53:11,494 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 17:54:11 IST)" (scheduled at 2024-04-30 17:53:11.493466+05:30)
+2024-04-30 17:53:11,500 - ERROR: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 17:54:11 IST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 666, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 388, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f71324414f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='rishi', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f71324414f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py", line 80, in monitor_website
+    response = requests.get(website_url)
+  File "/usr/local/lib/python3.8/dist-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='rishi', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f71324414f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-04-30 17:53:16,604 - INFO: Running job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 17:54:16 IST)" (scheduled at 2024-04-30 17:53:16.604095+05:30)
+2024-04-30 17:53:16,608 - ERROR: Job "monitor_website (trigger: interval[0:01:00], next run at: 2024-04-30 17:54:16 IST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 666, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 388, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f71324b48b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='hkgdv', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f71324b48b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py", line 80, in monitor_website
+    response = requests.get(website_url)
+  File "/usr/local/lib/python3.8/dist-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='hkgdv', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f71324b48b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-04-30 17:53:32,595 - INFO: Scheduler started
+2024-04-30 17:53:32,603 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-04-30 17:53:32,603 - INFO:  * Restarting with stat
+2024-04-30 17:53:33,029 - INFO: Scheduler started
+2024-04-30 17:53:33,035 - WARNING:  * Debugger is active!
+2024-04-30 17:53:33,035 - INFO:  * Debugger PIN: 413-664-081
+2024-04-30 17:53:39,045 - INFO: 127.0.0.1 - - [30/Apr/2024 17:53:39] "GET / HTTP/1.1" 200 -
+2024-04-30 17:53:39,058 - INFO: 127.0.0.1 - - [30/Apr/2024 17:53:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 17:53:45,526 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:53:45,531 - INFO: 127.0.0.1 - - [30/Apr/2024 17:53:45] "POST / HTTP/1.1" 200 -
+2024-04-30 17:53:45,548 - INFO: 127.0.0.1 - - [30/Apr/2024 17:53:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 17:53:49,849 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:53:55,881 - INFO: 127.0.0.1 - - [30/Apr/2024 17:53:55] "POST / HTTP/1.1" 200 -
+2024-04-30 17:53:55,895 - INFO: 127.0.0.1 - - [30/Apr/2024 17:53:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 17:54:08,224 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:54:08,323 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:08] "POST / HTTP/1.1" 200 -
+2024-04-30 17:54:08,336 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 17:54:15,589 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:54:15,601 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:15] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 17:54:15,613 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:15] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 17:54:15,613 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:15] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 17:54:15,647 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:15] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:54:15,667 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:15] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:54:22,200 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:54:22,215 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:22] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 17:54:22,229 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:22] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 17:54:22,229 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:22] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 17:54:22,246 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:22] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:54:22,257 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:22] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:54:25,386 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:54:31,500 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:31] "POST / HTTP/1.1" 200 -
+2024-04-30 17:54:31,522 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 17:54:39,488 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:54:44,810 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:44] "POST / HTTP/1.1" 200 -
+2024-04-30 17:54:44,830 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 17:54:50,094 - INFO: Added job "monitor_website" to job store "default"
+2024-04-30 17:54:50,103 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:50] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-30 17:54:50,113 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:50] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 17:54:50,113 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:50] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 17:54:50,130 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:50] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:54:50,144 - INFO: 127.0.0.1 - - [30/Apr/2024 17:54:50] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 17:55:02,193 - INFO: 127.0.0.1 - - [30/Apr/2024 17:55:02] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 17:55:23,260 - INFO: 127.0.0.1 - - [30/Apr/2024 17:55:23] "[32mPOST /add_website HTTP/1.1[0m" 302 -
+2024-04-30 17:55:23,263 - INFO: 127.0.0.1 - - [30/Apr/2024 17:55:23] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 21:28:20,782 - INFO: Scheduler started
+2024-04-30 21:28:20,790 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-04-30 21:28:20,792 - INFO:  * Restarting with stat
+2024-04-30 21:28:21,309 - INFO: Scheduler started
+2024-04-30 21:28:21,313 - WARNING:  * Debugger is active!
+2024-04-30 21:28:21,363 - INFO:  * Debugger PIN: 111-082-064
+2024-04-30 21:28:25,568 - INFO: 127.0.0.1 - - [30/Apr/2024 21:28:25] "GET / HTTP/1.1" 200 -
+2024-04-30 21:28:25,595 - INFO: 127.0.0.1 - - [30/Apr/2024 21:28:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:29:03,651 - INFO: 127.0.0.1 - - [30/Apr/2024 21:29:03] "GET / HTTP/1.1" 200 -
+2024-04-30 21:29:55,877 - INFO: 127.0.0.1 - - [30/Apr/2024 21:29:55] "GET / HTTP/1.1" 200 -
+2024-04-30 21:29:55,894 - INFO: 127.0.0.1 - - [30/Apr/2024 21:29:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:30:04,384 - INFO: 127.0.0.1 - - [30/Apr/2024 21:30:04] "GET / HTTP/1.1" 200 -
+2024-04-30 21:30:04,404 - INFO: 127.0.0.1 - - [30/Apr/2024 21:30:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:30:05,249 - INFO: 127.0.0.1 - - [30/Apr/2024 21:30:05] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 21:30:09,774 - INFO: 127.0.0.1 - - [30/Apr/2024 21:30:09] "[35m[1mGET /analytics HTTP/1.1[0m" 500 -
+2024-04-30 21:30:09,808 - INFO: 127.0.0.1 - - [30/Apr/2024 21:30:09] "GET /analytics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 21:30:09,809 - INFO: 127.0.0.1 - - [30/Apr/2024 21:30:09] "GET /analytics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 21:30:09,815 - INFO: 127.0.0.1 - - [30/Apr/2024 21:30:09] "GET /analytics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 21:30:09,822 - INFO: 127.0.0.1 - - [30/Apr/2024 21:30:09] "GET /analytics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 21:31:16,477 - INFO: 127.0.0.1 - - [30/Apr/2024 21:31:16] "GET / HTTP/1.1" 200 -
+2024-04-30 21:31:16,499 - INFO: 127.0.0.1 - - [30/Apr/2024 21:31:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:31:25,156 - INFO: 127.0.0.1 - - [30/Apr/2024 21:31:25] "GET / HTTP/1.1" 200 -
+2024-04-30 21:31:41,278 - INFO: 127.0.0.1 - - [30/Apr/2024 21:31:41] "GET / HTTP/1.1" 200 -
+2024-04-30 21:31:41,301 - INFO: 127.0.0.1 - - [30/Apr/2024 21:31:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:31:55,854 - INFO: 127.0.0.1 - - [30/Apr/2024 21:31:55] "GET / HTTP/1.1" 200 -
+2024-04-30 21:31:55,877 - INFO: 127.0.0.1 - - [30/Apr/2024 21:31:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:31:57,936 - INFO: 127.0.0.1 - - [30/Apr/2024 21:31:57] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 21:32:00,470 - INFO: 127.0.0.1 - - [30/Apr/2024 21:32:00] "GET / HTTP/1.1" 200 -
+2024-04-30 21:32:00,489 - INFO: 127.0.0.1 - - [30/Apr/2024 21:32:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:32:01,390 - INFO: 127.0.0.1 - - [30/Apr/2024 21:32:01] "GET / HTTP/1.1" 200 -
+2024-04-30 21:32:01,402 - INFO: 127.0.0.1 - - [30/Apr/2024 21:32:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:32:02,705 - INFO: 127.0.0.1 - - [30/Apr/2024 21:32:02] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 21:32:07,216 - INFO: 127.0.0.1 - - [30/Apr/2024 21:32:07] "GET / HTTP/1.1" 200 -
+2024-04-30 21:32:07,241 - INFO: 127.0.0.1 - - [30/Apr/2024 21:32:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:32:08,216 - INFO: 127.0.0.1 - - [30/Apr/2024 21:32:08] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 21:33:43,923 - INFO: 127.0.0.1 - - [30/Apr/2024 21:33:43] "[35m[1mGET /analytics HTTP/1.1[0m" 500 -
+2024-04-30 21:33:43,948 - INFO: 127.0.0.1 - - [30/Apr/2024 21:33:43] "GET /analytics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 21:33:43,950 - INFO: 127.0.0.1 - - [30/Apr/2024 21:33:43] "GET /analytics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 21:33:43,976 - INFO: 127.0.0.1 - - [30/Apr/2024 21:33:43] "GET /analytics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 21:34:57,179 - INFO: Scheduler started
+2024-04-30 21:34:57,185 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-04-30 21:34:57,186 - INFO:  * Restarting with stat
+2024-04-30 21:34:57,649 - INFO: Scheduler started
+2024-04-30 21:34:57,654 - WARNING:  * Debugger is active!
+2024-04-30 21:34:57,654 - INFO:  * Debugger PIN: 111-082-064
+2024-04-30 21:34:59,755 - INFO: 127.0.0.1 - - [30/Apr/2024 21:34:59] "[35m[1mGET /analytics HTTP/1.1[0m" 500 -
+2024-04-30 21:34:59,776 - INFO: 127.0.0.1 - - [30/Apr/2024 21:34:59] "GET /analytics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 21:34:59,777 - INFO: 127.0.0.1 - - [30/Apr/2024 21:34:59] "GET /analytics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 21:34:59,790 - INFO: 127.0.0.1 - - [30/Apr/2024 21:34:59] "GET /analytics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 21:35:10,946 - INFO: 127.0.0.1 - - [30/Apr/2024 21:35:10] "[35m[1mGET /analytics HTTP/1.1[0m" 500 -
+2024-04-30 21:35:10,975 - INFO: 127.0.0.1 - - [30/Apr/2024 21:35:10] "GET /analytics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 21:35:10,976 - INFO: 127.0.0.1 - - [30/Apr/2024 21:35:10] "GET /analytics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 21:35:10,985 - INFO: 127.0.0.1 - - [30/Apr/2024 21:35:10] "GET /analytics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 21:38:12,338 - INFO: 127.0.0.1 - - [30/Apr/2024 21:38:12] "GET / HTTP/1.1" 200 -
+2024-04-30 21:38:55,792 - INFO: 127.0.0.1 - - [30/Apr/2024 21:38:55] "GET / HTTP/1.1" 200 -
+2024-04-30 21:39:01,130 - INFO: 127.0.0.1 - - [30/Apr/2024 21:39:01] "GET / HTTP/1.1" 200 -
+2024-04-30 21:39:02,143 - INFO: 127.0.0.1 - - [30/Apr/2024 21:39:02] "GET / HTTP/1.1" 200 -
+2024-04-30 21:39:02,329 - INFO: 127.0.0.1 - - [30/Apr/2024 21:39:02] "GET / HTTP/1.1" 200 -
+2024-04-30 21:39:02,843 - INFO: 127.0.0.1 - - [30/Apr/2024 21:39:02] "GET / HTTP/1.1" 200 -
+2024-04-30 21:39:03,027 - INFO: 127.0.0.1 - - [30/Apr/2024 21:39:03] "GET / HTTP/1.1" 200 -
+2024-04-30 21:39:14,315 - INFO: 127.0.0.1 - - [30/Apr/2024 21:39:14] "GET / HTTP/1.1" 200 -
+2024-04-30 21:41:49,315 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:49] "GET / HTTP/1.1" 200 -
+2024-04-30 21:41:49,347 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:49] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2024-04-30 21:41:50,180 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:50] "GET / HTTP/1.1" 200 -
+2024-04-30 21:41:50,198 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:50] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2024-04-30 21:41:50,569 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:50] "GET / HTTP/1.1" 200 -
+2024-04-30 21:41:50,581 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:50] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2024-04-30 21:41:50,780 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:50] "GET / HTTP/1.1" 200 -
+2024-04-30 21:41:50,797 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:50] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2024-04-30 21:41:50,968 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:50] "GET / HTTP/1.1" 200 -
+2024-04-30 21:41:50,980 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:50] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2024-04-30 21:41:52,364 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:52] "GET / HTTP/1.1" 200 -
+2024-04-30 21:41:52,390 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:52] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2024-04-30 21:41:53,076 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:53] "GET / HTTP/1.1" 200 -
+2024-04-30 21:41:53,092 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:53] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2024-04-30 21:41:53,217 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:53] "GET / HTTP/1.1" 200 -
+2024-04-30 21:41:53,229 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:53] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2024-04-30 21:41:53,370 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:53] "GET / HTTP/1.1" 200 -
+2024-04-30 21:41:53,389 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:53] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2024-04-30 21:41:53,550 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:53] "GET / HTTP/1.1" 200 -
+2024-04-30 21:41:53,562 - INFO: 127.0.0.1 - - [30/Apr/2024 21:41:53] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2024-04-30 21:42:48,746 - INFO: 127.0.0.1 - - [30/Apr/2024 21:42:48] "GET / HTTP/1.1" 200 -
+2024-04-30 21:42:48,760 - INFO: 127.0.0.1 - - [30/Apr/2024 21:42:48] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-30 21:42:58,422 - INFO: 127.0.0.1 - - [30/Apr/2024 21:42:58] "GET / HTTP/1.1" 200 -
+2024-04-30 21:42:58,460 - INFO: 127.0.0.1 - - [30/Apr/2024 21:42:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:42:59,818 - INFO: 127.0.0.1 - - [30/Apr/2024 21:42:59] "[35m[1mGET /analytics HTTP/1.1[0m" 500 -
+2024-04-30 21:42:59,852 - INFO: 127.0.0.1 - - [30/Apr/2024 21:42:59] "GET /analytics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-30 21:42:59,853 - INFO: 127.0.0.1 - - [30/Apr/2024 21:42:59] "GET /analytics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-30 21:42:59,863 - INFO: 127.0.0.1 - - [30/Apr/2024 21:42:59] "GET /analytics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-30 21:43:03,057 - INFO: 127.0.0.1 - - [30/Apr/2024 21:43:03] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 21:44:36,971 - INFO: 127.0.0.1 - - [30/Apr/2024 21:44:36] "GET / HTTP/1.1" 200 -
+2024-04-30 21:44:37,001 - INFO: 127.0.0.1 - - [30/Apr/2024 21:44:37] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-30 21:44:37,943 - INFO: 127.0.0.1 - - [30/Apr/2024 21:44:37] "GET / HTTP/1.1" 200 -
+2024-04-30 21:44:37,958 - INFO: 127.0.0.1 - - [30/Apr/2024 21:44:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:44:38,102 - INFO: 127.0.0.1 - - [30/Apr/2024 21:44:38] "GET / HTTP/1.1" 200 -
+2024-04-30 21:44:38,118 - INFO: 127.0.0.1 - - [30/Apr/2024 21:44:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:44:38,256 - INFO: 127.0.0.1 - - [30/Apr/2024 21:44:38] "GET / HTTP/1.1" 200 -
+2024-04-30 21:44:38,274 - INFO: 127.0.0.1 - - [30/Apr/2024 21:44:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:44:38,399 - INFO: 127.0.0.1 - - [30/Apr/2024 21:44:38] "GET / HTTP/1.1" 200 -
+2024-04-30 21:44:38,415 - INFO: 127.0.0.1 - - [30/Apr/2024 21:44:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:44:38,576 - INFO: 127.0.0.1 - - [30/Apr/2024 21:44:38] "GET / HTTP/1.1" 200 -
+2024-04-30 21:44:38,590 - INFO: 127.0.0.1 - - [30/Apr/2024 21:44:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:45:59,083 - INFO: 127.0.0.1 - - [30/Apr/2024 21:45:59] "GET / HTTP/1.1" 200 -
+2024-04-30 21:45:59,099 - INFO: 127.0.0.1 - - [30/Apr/2024 21:45:59] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-30 21:45:59,526 - INFO: 127.0.0.1 - - [30/Apr/2024 21:45:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-30 21:46:22,549 - INFO: 127.0.0.1 - - [30/Apr/2024 21:46:22] "GET / HTTP/1.1" 200 -
+2024-04-30 21:46:22,561 - INFO: 127.0.0.1 - - [30/Apr/2024 21:46:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:46:23,327 - INFO: 127.0.0.1 - - [30/Apr/2024 21:46:23] "GET / HTTP/1.1" 200 -
+2024-04-30 21:46:23,340 - INFO: 127.0.0.1 - - [30/Apr/2024 21:46:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:46:23,466 - INFO: 127.0.0.1 - - [30/Apr/2024 21:46:23] "GET / HTTP/1.1" 200 -
+2024-04-30 21:46:23,488 - INFO: 127.0.0.1 - - [30/Apr/2024 21:46:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:46:23,621 - INFO: 127.0.0.1 - - [30/Apr/2024 21:46:23] "GET / HTTP/1.1" 200 -
+2024-04-30 21:46:23,638 - INFO: 127.0.0.1 - - [30/Apr/2024 21:46:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:46:23,773 - INFO: 127.0.0.1 - - [30/Apr/2024 21:46:23] "GET / HTTP/1.1" 200 -
+2024-04-30 21:46:23,794 - INFO: 127.0.0.1 - - [30/Apr/2024 21:46:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:46:23,926 - INFO: 127.0.0.1 - - [30/Apr/2024 21:46:23] "GET / HTTP/1.1" 200 -
+2024-04-30 21:46:23,945 - INFO: 127.0.0.1 - - [30/Apr/2024 21:46:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:46:24,107 - INFO: 127.0.0.1 - - [30/Apr/2024 21:46:24] "GET / HTTP/1.1" 200 -
+2024-04-30 21:46:24,128 - INFO: 127.0.0.1 - - [30/Apr/2024 21:46:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:47:01,120 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:01] "GET / HTTP/1.1" 200 -
+2024-04-30 21:47:01,130 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:01] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-30 21:47:14,275 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:14] "GET / HTTP/1.1" 200 -
+2024-04-30 21:47:14,285 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:47:15,257 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:15] "GET / HTTP/1.1" 200 -
+2024-04-30 21:47:15,282 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:47:15,410 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:15] "GET / HTTP/1.1" 200 -
+2024-04-30 21:47:15,430 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:47:15,571 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:15] "GET / HTTP/1.1" 200 -
+2024-04-30 21:47:15,592 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:47:15,715 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:15] "GET / HTTP/1.1" 200 -
+2024-04-30 21:47:15,738 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:47:15,869 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:15] "GET / HTTP/1.1" 200 -
+2024-04-30 21:47:15,890 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:47:16,051 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:16] "GET / HTTP/1.1" 200 -
+2024-04-30 21:47:16,068 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:47:26,341 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:26] "GET / HTTP/1.1" 200 -
+2024-04-30 21:47:26,354 - INFO: 127.0.0.1 - - [30/Apr/2024 21:47:26] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-30 21:48:51,153 - INFO: 127.0.0.1 - - [30/Apr/2024 21:48:51] "GET / HTTP/1.1" 200 -
+2024-04-30 21:48:51,165 - INFO: 127.0.0.1 - - [30/Apr/2024 21:48:51] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-30 21:49:14,618 - INFO: 127.0.0.1 - - [30/Apr/2024 21:49:14] "GET / HTTP/1.1" 200 -
+2024-04-30 21:49:14,637 - INFO: 127.0.0.1 - - [30/Apr/2024 21:49:14] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-30 21:51:48,475 - INFO: 127.0.0.1 - - [30/Apr/2024 21:51:48] "GET / HTTP/1.1" 200 -
+2024-04-30 21:51:48,485 - INFO: 127.0.0.1 - - [30/Apr/2024 21:51:48] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-30 21:51:50,150 - INFO: 127.0.0.1 - - [30/Apr/2024 21:51:50] "GET / HTTP/1.1" 200 -
+2024-04-30 21:51:50,164 - INFO: 127.0.0.1 - - [30/Apr/2024 21:51:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:51:50,330 - INFO: 127.0.0.1 - - [30/Apr/2024 21:51:50] "GET / HTTP/1.1" 200 -
+2024-04-30 21:51:50,345 - INFO: 127.0.0.1 - - [30/Apr/2024 21:51:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:51:54,168 - INFO: 127.0.0.1 - - [30/Apr/2024 21:51:54] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 21:51:59,183 - INFO: 127.0.0.1 - - [30/Apr/2024 21:51:59] "GET / HTTP/1.1" 200 -
+2024-04-30 21:51:59,196 - INFO: 127.0.0.1 - - [30/Apr/2024 21:51:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:51:59,992 - INFO: 127.0.0.1 - - [30/Apr/2024 21:51:59] "GET / HTTP/1.1" 200 -
+2024-04-30 21:52:00,008 - INFO: 127.0.0.1 - - [30/Apr/2024 21:52:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:52:00,794 - INFO: 127.0.0.1 - - [30/Apr/2024 21:52:00] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 21:54:01,349 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:01] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:01,360 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:02,297 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:02] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:02,307 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:02,443 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:02] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:02,459 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:02,595 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:02] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:02,606 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:02,739 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:02] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:02,756 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:02,926 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:02] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:02,938 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:16,657 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:16] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:16,668 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:17,563 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:17] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:17,576 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:17,712 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:17] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:17,731 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:17,889 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:17] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:17,901 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:18,053 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:18] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:18,068 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:18,221 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:18] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:18,240 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:18,361 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:18] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:18,373 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:18,523 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:18] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:18,532 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:18,684 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:18] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:18,694 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:18,868 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:18] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:18,882 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:45,572 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:45] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:45,585 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:45] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-30 21:54:46,370 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:46] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:46,381 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:46,606 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:46] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:46,618 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:46,769 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:46] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:46,782 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:46,931 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:46] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:46,941 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:47,117 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:47] "GET / HTTP/1.1" 200 -
+2024-04-30 21:54:47,135 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:54:55,644 - INFO: 127.0.0.1 - - [30/Apr/2024 21:54:55] "GET /dashboard HTTP/1.1" 200 -
+2024-04-30 21:55:27,515 - INFO: 127.0.0.1 - - [30/Apr/2024 21:55:27] "GET / HTTP/1.1" 200 -
+2024-04-30 21:55:29,844 - INFO: 127.0.0.1 - - [30/Apr/2024 21:55:29] "GET / HTTP/1.1" 200 -
+2024-04-30 21:55:30,032 - INFO: 127.0.0.1 - - [30/Apr/2024 21:55:30] "GET / HTTP/1.1" 200 -
+2024-04-30 21:55:44,910 - INFO: 127.0.0.1 - - [30/Apr/2024 21:55:44] "GET / HTTP/1.1" 200 -
+2024-04-30 21:55:44,919 - INFO: 127.0.0.1 - - [30/Apr/2024 21:55:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:56:00,459 - INFO: 127.0.0.1 - - [30/Apr/2024 21:56:00] "GET / HTTP/1.1" 200 -
+2024-04-30 21:56:00,471 - INFO: 127.0.0.1 - - [30/Apr/2024 21:56:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-30 21:56:00,630 - INFO: 127.0.0.1 - - [30/Apr/2024 21:56:00] "GET / HTTP/1.1" 200 -
+2024-04-30 21:56:00,649 - INFO: 127.0.0.1 - - [30/Apr/2024 21:56:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 10:40:07,490 - INFO: Scheduler started
+2024-05-01 10:40:07,495 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-05-01 10:40:07,496 - INFO:  * Restarting with stat
+2024-05-01 10:40:07,940 - INFO: Scheduler started
+2024-05-01 10:40:07,945 - WARNING:  * Debugger is active!
+2024-05-01 10:40:07,945 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:40:10,370 - INFO: 127.0.0.1 - - [01/May/2024 10:40:10] "[35m[1mGET /analytics HTTP/1.1[0m" 500 -
+2024-05-01 10:40:10,386 - INFO: 127.0.0.1 - - [01/May/2024 10:40:10] "GET /analytics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 10:40:10,390 - INFO: 127.0.0.1 - - [01/May/2024 10:40:10] "GET /analytics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 10:40:10,396 - INFO: 127.0.0.1 - - [01/May/2024 10:40:10] "GET /analytics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 10:40:10,397 - INFO: 127.0.0.1 - - [01/May/2024 10:40:10] "GET /analytics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 10:40:15,374 - INFO: Added job "monitor_website" to job store "default"
+2024-05-01 10:40:15,389 - INFO: 127.0.0.1 - - [01/May/2024 10:40:15] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-05-01 10:40:15,408 - INFO: 127.0.0.1 - - [01/May/2024 10:40:15] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 10:40:15,408 - INFO: 127.0.0.1 - - [01/May/2024 10:40:15] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 10:40:15,416 - INFO: 127.0.0.1 - - [01/May/2024 10:40:15] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 10:40:24,032 - INFO: 127.0.0.1 - - [01/May/2024 10:40:24] "GET / HTTP/1.1" 200 -
+2024-05-01 10:40:26,678 - INFO: Added job "monitor_website" to job store "default"
+2024-05-01 10:40:33,477 - INFO: 127.0.0.1 - - [01/May/2024 10:40:33] "POST / HTTP/1.1" 200 -
+2024-05-01 10:40:33,490 - INFO: 127.0.0.1 - - [01/May/2024 10:40:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 10:40:34,393 - INFO: 127.0.0.1 - - [01/May/2024 10:40:34] "[35m[1mGET /analytics HTTP/1.1[0m" 500 -
+2024-05-01 10:40:34,416 - INFO: 127.0.0.1 - - [01/May/2024 10:40:34] "GET /analytics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 10:40:34,418 - INFO: 127.0.0.1 - - [01/May/2024 10:40:34] "GET /analytics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 10:40:34,429 - INFO: 127.0.0.1 - - [01/May/2024 10:40:34] "GET /analytics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 10:41:28,978 - INFO: Scheduler started
+2024-05-01 10:41:28,982 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-05-01 10:41:28,983 - INFO:  * Restarting with stat
+2024-05-01 10:41:29,429 - INFO: Scheduler started
+2024-05-01 10:41:29,434 - WARNING:  * Debugger is active!
+2024-05-01 10:41:29,435 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:41:32,464 - INFO: 127.0.0.1 - - [01/May/2024 10:41:32] "[35m[1mGET /analytics HTTP/1.1[0m" 500 -
+2024-05-01 10:41:32,490 - INFO: 127.0.0.1 - - [01/May/2024 10:41:32] "GET /analytics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 10:41:32,491 - INFO: 127.0.0.1 - - [01/May/2024 10:41:32] "GET /analytics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 10:41:32,507 - INFO: 127.0.0.1 - - [01/May/2024 10:41:32] "GET /analytics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 10:41:40,114 - INFO: 127.0.0.1 - - [01/May/2024 10:41:40] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 10:41:46,726 - INFO: 127.0.0.1 - - [01/May/2024 10:41:46] "[35m[1mGET /analytics HTTP/1.1[0m" 500 -
+2024-05-01 10:41:46,773 - INFO: 127.0.0.1 - - [01/May/2024 10:41:46] "GET /analytics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 10:41:46,774 - INFO: 127.0.0.1 - - [01/May/2024 10:41:46] "GET /analytics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 10:41:46,787 - INFO: 127.0.0.1 - - [01/May/2024 10:41:46] "GET /analytics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 10:42:24,861 - INFO: Scheduler started
+2024-05-01 10:42:24,866 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-05-01 10:42:24,867 - INFO:  * Restarting with stat
+2024-05-01 10:42:25,306 - INFO: Scheduler started
+2024-05-01 10:42:25,310 - WARNING:  * Debugger is active!
+2024-05-01 10:42:25,310 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:42:28,847 - INFO: 127.0.0.1 - - [01/May/2024 10:42:28] "[35m[1mGET /analytics HTTP/1.1[0m" 500 -
+2024-05-01 10:42:28,869 - INFO: 127.0.0.1 - - [01/May/2024 10:42:28] "GET /analytics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 10:42:28,871 - INFO: 127.0.0.1 - - [01/May/2024 10:42:28] "GET /analytics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 10:42:28,893 - INFO: 127.0.0.1 - - [01/May/2024 10:42:28] "GET /analytics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 10:43:07,448 - INFO: Scheduler started
+2024-05-01 10:43:07,452 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-05-01 10:43:07,453 - INFO:  * Restarting with stat
+2024-05-01 10:43:07,893 - INFO: Scheduler started
+2024-05-01 10:43:07,897 - WARNING:  * Debugger is active!
+2024-05-01 10:43:07,898 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:43:10,474 - INFO: 127.0.0.1 - - [01/May/2024 10:43:10] "GET /analytics HTTP/1.1" 200 -
+2024-05-01 10:43:10,501 - INFO: 127.0.0.1 - - [01/May/2024 10:43:10] "GET /static/uptime_status.png HTTP/1.1" 200 -
+2024-05-01 10:43:10,502 - INFO: 127.0.0.1 - - [01/May/2024 10:43:10] "GET /static/page_load_time.png HTTP/1.1" 200 -
+2024-05-01 10:43:10,503 - INFO: 127.0.0.1 - - [01/May/2024 10:43:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 10:43:38,810 - INFO: Added job "monitor_website" to job store "default"
+2024-05-01 10:43:44,162 - INFO: 127.0.0.1 - - [01/May/2024 10:43:44] "POST / HTTP/1.1" 200 -
+2024-05-01 10:43:44,177 - INFO: 127.0.0.1 - - [01/May/2024 10:43:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 10:49:16,105 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 10:49:16,196 - INFO:  * Restarting with stat
+2024-05-01 10:49:16,646 - INFO: Scheduler started
+2024-05-01 10:49:16,650 - WARNING:  * Debugger is active!
+2024-05-01 10:49:16,651 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:49:19,868 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 10:49:19,946 - INFO:  * Restarting with stat
+2024-05-01 10:49:20,390 - INFO: Scheduler started
+2024-05-01 10:49:20,395 - WARNING:  * Debugger is active!
+2024-05-01 10:49:20,395 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:50:18,904 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 10:50:18,982 - INFO:  * Restarting with stat
+2024-05-01 10:50:19,451 - INFO: Scheduler started
+2024-05-01 10:50:19,456 - WARNING:  * Debugger is active!
+2024-05-01 10:50:19,456 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:50:21,613 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 10:50:21,717 - INFO:  * Restarting with stat
+2024-05-01 10:50:22,189 - INFO: Scheduler started
+2024-05-01 10:50:22,193 - WARNING:  * Debugger is active!
+2024-05-01 10:50:22,194 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:50:47,323 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 10:50:47,418 - INFO:  * Restarting with stat
+2024-05-01 10:50:47,968 - INFO: Scheduler started
+2024-05-01 10:50:47,973 - WARNING:  * Debugger is active!
+2024-05-01 10:50:47,973 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:50:49,090 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 10:50:49,194 - INFO:  * Restarting with stat
+2024-05-01 10:50:49,667 - INFO: Scheduler started
+2024-05-01 10:50:49,672 - WARNING:  * Debugger is active!
+2024-05-01 10:50:49,672 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:50:50,786 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 10:50:50,882 - INFO:  * Restarting with stat
+2024-05-01 10:50:51,361 - INFO: Scheduler started
+2024-05-01 10:50:51,365 - WARNING:  * Debugger is active!
+2024-05-01 10:50:51,365 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:50:59,774 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 10:50:59,866 - INFO:  * Restarting with stat
+2024-05-01 10:51:00,337 - INFO: Scheduler started
+2024-05-01 10:51:00,341 - WARNING:  * Debugger is active!
+2024-05-01 10:51:00,341 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:51:09,788 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 10:51:09,879 - INFO:  * Restarting with stat
+2024-05-01 10:51:10,349 - INFO: Scheduler started
+2024-05-01 10:51:10,353 - WARNING:  * Debugger is active!
+2024-05-01 10:51:10,354 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:51:21,021 - INFO: Added job "monitor_website" to job store "default"
+2024-05-01 10:51:26,774 - INFO: 127.0.0.1 - - [01/May/2024 10:51:26] "POST / HTTP/1.1" 200 -
+2024-05-01 10:51:26,791 - INFO: 127.0.0.1 - - [01/May/2024 10:51:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 10:51:57,371 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 10:51:57,471 - INFO:  * Restarting with stat
+2024-05-01 10:52:02,769 - INFO: Scheduler started
+2024-05-01 10:52:02,774 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-05-01 10:52:02,774 - INFO:  * Restarting with stat
+2024-05-01 10:52:03,246 - INFO: Scheduler started
+2024-05-01 10:52:03,250 - WARNING:  * Debugger is active!
+2024-05-01 10:52:03,251 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:52:11,109 - INFO: Added job "monitor_website" to job store "default"
+2024-05-01 10:52:15,095 - INFO: 127.0.0.1 - - [01/May/2024 10:52:15] "POST / HTTP/1.1" 200 -
+2024-05-01 10:52:15,116 - INFO: 127.0.0.1 - - [01/May/2024 10:52:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 10:53:14,207 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 10:53:14,298 - INFO:  * Restarting with stat
+2024-05-01 10:53:14,816 - INFO: Scheduler started
+2024-05-01 10:53:14,821 - WARNING:  * Debugger is active!
+2024-05-01 10:53:14,821 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:53:19,070 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 10:53:19,159 - INFO:  * Restarting with stat
+2024-05-01 10:53:19,672 - INFO: Scheduler started
+2024-05-01 10:53:19,677 - WARNING:  * Debugger is active!
+2024-05-01 10:53:19,678 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:53:45,839 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 10:53:45,929 - INFO:  * Restarting with stat
+2024-05-01 10:53:46,467 - INFO: Scheduler started
+2024-05-01 10:53:46,473 - WARNING:  * Debugger is active!
+2024-05-01 10:53:46,473 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:53:50,681 - INFO: Scheduler started
+2024-05-01 10:53:50,686 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-05-01 10:53:50,686 - INFO:  * Restarting with stat
+2024-05-01 10:53:51,158 - INFO: Scheduler started
+2024-05-01 10:53:51,162 - WARNING:  * Debugger is active!
+2024-05-01 10:53:51,162 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:54:05,214 - INFO: Added job "monitor_website" to job store "default"
+2024-05-01 10:54:05,217 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f71c96e5ca0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 6631d1f5eaf1454e0e83a1e3, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631d1f5eaf1454e0e83a1e3"}, "remainingTimeMS": 29}
+2024-05-01 10:54:18,048 - INFO: 127.0.0.1 - - [01/May/2024 10:54:18] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 10:54:22,533 - INFO: 127.0.0.1 - - [01/May/2024 10:54:22] "GET /analytics HTTP/1.1" 200 -
+2024-05-01 10:54:22,558 - INFO: 127.0.0.1 - - [01/May/2024 10:54:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 10:54:22,559 - INFO: 127.0.0.1 - - [01/May/2024 10:54:22] "GET /static/uptime_status.png HTTP/1.1" 200 -
+2024-05-01 10:54:22,560 - INFO: 127.0.0.1 - - [01/May/2024 10:54:22] "GET /static/page_load_time.png HTTP/1.1" 200 -
+2024-05-01 10:54:41,002 - INFO: 127.0.0.1 - - [01/May/2024 10:54:41] "POST / HTTP/1.1" 200 -
+2024-05-01 10:55:27,226 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 10:55:27,349 - INFO:  * Restarting with stat
+2024-05-01 10:55:27,853 - INFO: Scheduler started
+2024-05-01 10:55:27,857 - WARNING:  * Debugger is active!
+2024-05-01 10:55:27,858 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 10:55:48,856 - INFO: 127.0.0.1 - - [01/May/2024 10:55:48] "GET /analytics HTTP/1.1" 200 -
+2024-05-01 10:55:48,873 - INFO: 127.0.0.1 - - [01/May/2024 10:55:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 10:55:48,874 - INFO: 127.0.0.1 - - [01/May/2024 10:55:48] "GET /static/uptime_status.png HTTP/1.1" 200 -
+2024-05-01 10:55:48,875 - INFO: 127.0.0.1 - - [01/May/2024 10:55:48] "GET /static/page_load_time.png HTTP/1.1" 200 -
+2024-05-01 10:56:05,412 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f8d35c92dc0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 6631d26d87345a88d555e192, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631d26d87345a88d555e192"}, "remainingTimeMS": 29}
+2024-05-01 10:56:35,465 - INFO: 127.0.0.1 - - [01/May/2024 10:56:35] "[32mPOST /add_website HTTP/1.1[0m" 302 -
+2024-05-01 10:56:35,468 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631d28b87345a88d555e194, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>", "clientId": {"$oid": "6631d28b87345a88d555e194"}, "remainingTimeMS": 29}
+2024-05-01 10:56:40,660 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f8d35c92dc0>", "operation": "delete", "topologyDescription": "<TopologyDescription id: 6631d29087345a88d555e195, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631d29087345a88d555e195"}, "remainingTimeMS": 29}
+2024-05-01 10:56:42,614 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f8d35c92dc0>", "operation": "delete", "topologyDescription": "<TopologyDescription id: 6631d29287345a88d555e196, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631d29287345a88d555e196"}, "remainingTimeMS": 29}
+2024-05-01 10:57:05,530 - INFO: 127.0.0.1 - - [01/May/2024 10:57:05] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-05-01 10:57:10,714 - INFO: 127.0.0.1 - - [01/May/2024 10:57:10] "[32mGET /delete_website/5 HTTP/1.1[0m" 302 -
+2024-05-01 10:57:12,666 - INFO: 127.0.0.1 - - [01/May/2024 10:57:12] "[32mGET /delete_website/6 HTTP/1.1[0m" 302 -
+2024-05-01 10:57:12,670 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631d2b087345a88d555e197, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631d2b087345a88d555e197"}, "remainingTimeMS": 29}
+2024-05-01 10:57:42,729 - INFO: 127.0.0.1 - - [01/May/2024 10:57:42] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-05-01 10:57:42,744 - INFO: 127.0.0.1 - - [01/May/2024 10:57:42] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 10:57:42,745 - INFO: 127.0.0.1 - - [01/May/2024 10:57:42] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 10:57:42,767 - INFO: 127.0.0.1 - - [01/May/2024 10:57:42] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 10:57:42,768 - INFO: 127.0.0.1 - - [01/May/2024 10:57:42] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 10:58:54,693 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/mongo.py', reloading
+2024-05-01 10:58:54,825 - INFO:  * Restarting with stat
+2024-05-01 10:58:55,355 - INFO: Scheduler started
+2024-05-01 10:58:55,360 - WARNING:  * Debugger is active!
+2024-05-01 10:58:55,360 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 11:00:41,714 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 11:00:41,806 - INFO:  * Restarting with stat
+2024-05-01 11:00:42,273 - INFO: Scheduler started
+2024-05-01 11:00:42,277 - WARNING:  * Debugger is active!
+2024-05-01 11:00:42,277 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 11:00:45,479 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 11:00:45,579 - INFO:  * Restarting with stat
+2024-05-01 11:00:46,101 - INFO: Scheduler started
+2024-05-01 11:00:46,105 - WARNING:  * Debugger is active!
+2024-05-01 11:00:46,105 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 11:01:01,773 - INFO: 127.0.0.1 - - [01/May/2024 11:01:01] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-05-01 11:01:01,785 - INFO: 127.0.0.1 - - [01/May/2024 11:01:01] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 11:01:01,786 - INFO: 127.0.0.1 - - [01/May/2024 11:01:01] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 11:01:01,798 - INFO: 127.0.0.1 - - [01/May/2024 11:01:01] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 11:01:23,527 - INFO: Scheduler started
+2024-05-01 11:01:31,576 - INFO: Scheduler started
+2024-05-01 11:01:31,580 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-05-01 11:01:31,581 - INFO:  * Restarting with stat
+2024-05-01 11:01:32,017 - INFO: Scheduler started
+2024-05-01 11:01:32,021 - WARNING:  * Debugger is active!
+2024-05-01 11:01:32,021 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 11:01:38,028 - INFO: 127.0.0.1 - - [01/May/2024 11:01:38] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-05-01 11:01:38,054 - INFO: 127.0.0.1 - - [01/May/2024 11:01:38] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 11:01:38,055 - INFO: 127.0.0.1 - - [01/May/2024 11:01:38] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 11:01:38,062 - INFO: 127.0.0.1 - - [01/May/2024 11:01:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 11:01:41,907 - INFO: 127.0.0.1 - - [01/May/2024 11:01:41] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-05-01 11:01:41,927 - INFO: 127.0.0.1 - - [01/May/2024 11:01:41] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 11:01:41,927 - INFO: 127.0.0.1 - - [01/May/2024 11:01:41] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 11:01:41,940 - INFO: 127.0.0.1 - - [01/May/2024 11:01:41] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 11:02:17,995 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 11:02:18,103 - INFO:  * Restarting with stat
+2024-05-01 11:02:18,559 - INFO: Scheduler started
+2024-05-01 11:02:18,564 - WARNING:  * Debugger is active!
+2024-05-01 11:02:18,564 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 11:02:25,947 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 11:02:26,028 - INFO:  * Restarting with stat
+2024-05-01 11:02:26,481 - INFO: Scheduler started
+2024-05-01 11:02:26,486 - WARNING:  * Debugger is active!
+2024-05-01 11:02:26,486 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 11:02:30,735 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 11:02:30,815 - INFO:  * Restarting with stat
+2024-05-01 11:03:25,628 - INFO: Scheduler started
+2024-05-01 11:03:25,633 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-05-01 11:03:25,633 - INFO:  * Restarting with stat
+2024-05-01 11:03:26,068 - INFO: Scheduler started
+2024-05-01 11:03:26,073 - WARNING:  * Debugger is active!
+2024-05-01 11:03:26,073 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 11:03:35,422 - INFO: 127.0.0.1 - - [01/May/2024 11:03:35] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-05-01 11:03:35,436 - INFO: 127.0.0.1 - - [01/May/2024 11:03:35] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 11:03:35,437 - INFO: 127.0.0.1 - - [01/May/2024 11:03:35] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 11:03:35,448 - INFO: 127.0.0.1 - - [01/May/2024 11:03:35] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 11:03:38,766 - INFO: 127.0.0.1 - - [01/May/2024 11:03:38] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-05-01 11:03:38,789 - INFO: 127.0.0.1 - - [01/May/2024 11:03:38] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 11:03:38,790 - INFO: 127.0.0.1 - - [01/May/2024 11:03:38] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 11:03:38,804 - INFO: 127.0.0.1 - - [01/May/2024 11:03:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 11:04:07,893 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 11:04:07,973 - INFO:  * Restarting with stat
+2024-05-01 11:04:08,405 - INFO: Scheduler started
+2024-05-01 11:04:08,409 - WARNING:  * Debugger is active!
+2024-05-01 11:04:08,409 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 11:04:26,197 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 11:04:26,276 - INFO:  * Restarting with stat
+2024-05-01 11:04:26,707 - INFO: Scheduler started
+2024-05-01 11:04:26,711 - WARNING:  * Debugger is active!
+2024-05-01 11:04:26,711 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 11:04:35,150 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 11:04:35,253 - INFO:  * Restarting with stat
+2024-05-01 11:04:35,697 - INFO: Scheduler started
+2024-05-01 11:04:35,701 - WARNING:  * Debugger is active!
+2024-05-01 11:04:35,702 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 11:04:36,817 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 11:04:36,917 - INFO:  * Restarting with stat
+2024-05-01 11:04:37,399 - INFO: Scheduler started
+2024-05-01 11:04:37,404 - WARNING:  * Debugger is active!
+2024-05-01 11:04:37,405 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 11:04:39,407 - INFO: Scheduler started
+2024-05-01 11:04:39,412 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-05-01 11:04:39,412 - INFO:  * Restarting with stat
+2024-05-01 11:04:39,849 - INFO: Scheduler started
+2024-05-01 11:04:39,853 - WARNING:  * Debugger is active!
+2024-05-01 11:04:39,854 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 11:04:48,164 - INFO: 127.0.0.1 - - [01/May/2024 11:04:48] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-05-01 11:04:48,186 - INFO: 127.0.0.1 - - [01/May/2024 11:04:48] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 11:04:48,186 - INFO: 127.0.0.1 - - [01/May/2024 11:04:48] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 11:04:48,192 - INFO: 127.0.0.1 - - [01/May/2024 11:04:48] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 11:05:15,386 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 11:05:15,468 - INFO:  * Restarting with stat
+2024-05-01 11:05:15,967 - INFO: Scheduler started
+2024-05-01 11:05:15,971 - WARNING:  * Debugger is active!
+2024-05-01 11:05:15,972 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 11:05:17,092 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/app.py', reloading
+2024-05-01 11:05:17,193 - INFO:  * Restarting with stat
+2024-05-01 11:05:17,679 - INFO: Scheduler started
+2024-05-01 11:05:17,683 - WARNING:  * Debugger is active!
+2024-05-01 11:05:17,683 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 11:07:22,145 - INFO: Scheduler started
+2024-05-01 11:07:22,150 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-05-01 11:07:22,151 - INFO:  * Restarting with stat
+2024-05-01 11:07:22,602 - INFO: Scheduler started
+2024-05-01 11:07:22,606 - WARNING:  * Debugger is active!
+2024-05-01 11:07:22,606 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 11:07:28,624 - INFO: Added job "monitor_website" to job store "default"
+2024-05-01 11:07:33,803 - INFO: 127.0.0.1 - - [01/May/2024 11:07:33] "POST / HTTP/1.1" 200 -
+2024-05-01 11:07:33,823 - INFO: 127.0.0.1 - - [01/May/2024 11:07:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 11:07:35,420 - INFO: Added job "monitor_website" to job store "default"
+2024-05-01 11:07:40,719 - INFO: 127.0.0.1 - - [01/May/2024 11:07:40] "POST / HTTP/1.1" 200 -
+2024-05-01 11:07:40,741 - INFO: 127.0.0.1 - - [01/May/2024 11:07:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 11:07:59,151 - INFO: 127.0.0.1 - - [01/May/2024 11:07:59] "[35m[1mGET /delete_website/6 HTTP/1.1[0m" 500 -
+2024-05-01 11:07:59,176 - INFO: 127.0.0.1 - - [01/May/2024 11:07:59] "GET /delete_website/6?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 11:07:59,182 - INFO: 127.0.0.1 - - [01/May/2024 11:07:59] "GET /delete_website/6?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 11:07:59,188 - INFO: 127.0.0.1 - - [01/May/2024 11:07:59] "GET /delete_website/6?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 11:07:59,190 - INFO: 127.0.0.1 - - [01/May/2024 11:07:59] "GET /delete_website/6?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 11:08:05,420 - INFO: 127.0.0.1 - - [01/May/2024 11:08:05] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 11:08:15,123 - INFO: 127.0.0.1 - - [01/May/2024 11:08:15] "GET /analytics HTTP/1.1" 200 -
+2024-05-01 11:08:15,145 - INFO: 127.0.0.1 - - [01/May/2024 11:08:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 11:08:15,148 - INFO: 127.0.0.1 - - [01/May/2024 11:08:15] "GET /static/page_load_time.png HTTP/1.1" 200 -
+2024-05-01 11:08:15,148 - INFO: 127.0.0.1 - - [01/May/2024 11:08:15] "GET /static/uptime_status.png HTTP/1.1" 200 -
+2024-05-01 11:28:16,981 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/mongo.py', reloading
+2024-05-01 11:28:17,086 - INFO:  * Restarting with stat
+2024-05-01 11:28:17,624 - INFO: Scheduler started
+2024-05-01 11:28:17,629 - WARNING:  * Debugger is active!
+2024-05-01 11:28:17,630 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 11:36:56,728 - INFO: Scheduler started
+2024-05-01 11:36:56,794 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-05-01 11:36:56,794 - INFO:  * Restarting with stat
+2024-05-01 11:36:57,237 - INFO: Scheduler started
+2024-05-01 11:36:57,281 - WARNING:  * Debugger is active!
+2024-05-01 11:36:57,281 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 11:37:05,192 - INFO: Added job "monitor_website" to job store "default"
+2024-05-01 11:37:05,197 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f6ffd5c8af0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 6631dc09763928d63125a259, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631dc09763928d63125a259"}, "remainingTimeMS": 29}
+2024-05-01 11:37:10,488 - INFO: 127.0.0.1 - - [01/May/2024 11:37:10] "POST / HTTP/1.1" 200 -
+2024-05-01 11:37:10,501 - INFO: 127.0.0.1 - - [01/May/2024 11:37:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 11:37:10,515 - INFO: 127.0.0.1 - - [01/May/2024 11:37:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-01 11:37:26,742 - INFO: Added job "monitor_website" to job store "default"
+2024-05-01 11:37:26,889 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f6ffd5c8af0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 6631dc1e763928d63125a25b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631dc1e763928d63125a25b"}, "remainingTimeMS": 29}
+2024-05-01 11:37:26,891 - INFO: 127.0.0.1 - - [01/May/2024 11:37:26] "POST / HTTP/1.1" 200 -
+2024-05-01 11:37:26,910 - INFO: 127.0.0.1 - - [01/May/2024 11:37:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 11:37:33,681 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631dc25763928d63125a25d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631dc25763928d63125a25d"}, "remainingTimeMS": 29}
+2024-05-01 11:37:33,685 - INFO: 127.0.0.1 - - [01/May/2024 11:37:33] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 11:37:43,317 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f6ffd5c8af0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 6631dc2f763928d63125a25e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631dc2f763928d63125a25e"}, "remainingTimeMS": 29}
+2024-05-01 11:37:43,327 - INFO: 127.0.0.1 - - [01/May/2024 11:37:43] "[32mPOST /add_website HTTP/1.1[0m" 302 -
+2024-05-01 11:37:43,335 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631dc2f763928d63125a260, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631dc2f763928d63125a260"}, "remainingTimeMS": 29}
+2024-05-01 11:37:43,338 - INFO: 127.0.0.1 - - [01/May/2024 11:37:43] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 11:49:59,486 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631df0f763928d63125a261, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631df0f763928d63125a261"}, "remainingTimeMS": 29}
+2024-05-01 11:49:59,524 - INFO: 127.0.0.1 - - [01/May/2024 11:49:59] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 11:54:49,231 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631e031763928d63125a262, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631e031763928d63125a262"}, "remainingTimeMS": 29}
+2024-05-01 11:54:49,613 - INFO: 127.0.0.1 - - [01/May/2024 11:54:49] "GET /analytics HTTP/1.1" 200 -
+2024-05-01 11:54:49,640 - INFO: 127.0.0.1 - - [01/May/2024 11:54:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 11:54:49,642 - INFO: 127.0.0.1 - - [01/May/2024 11:54:49] "GET /static/uptime_status.png HTTP/1.1" 200 -
+2024-05-01 11:54:49,644 - INFO: 127.0.0.1 - - [01/May/2024 11:54:49] "GET /static/page_load_time.png HTTP/1.1" 200 -
+2024-05-01 12:20:13,970 - INFO: 127.0.0.1 - - [01/May/2024 12:20:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-01 12:32:19,422 - INFO: Added job "monitor_website" to job store "default"
+2024-05-01 12:32:21,251 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f6ffd5c8af0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 6631e8fd763928d63125a263, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631e8fd763928d63125a263"}, "remainingTimeMS": 29}
+2024-05-01 12:32:21,255 - INFO: 127.0.0.1 - - [01/May/2024 12:32:21] "POST / HTTP/1.1" 200 -
+2024-05-01 12:32:21,281 - INFO: 127.0.0.1 - - [01/May/2024 12:32:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 12:34:14,105 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/mongo.py', reloading
+2024-05-01 12:34:14,247 - INFO:  * Restarting with stat
+2024-05-01 12:34:15,028 - INFO: Scheduler started
+2024-05-01 12:34:15,115 - WARNING:  * Debugger is active!
+2024-05-01 12:34:15,115 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 12:49:50,147 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/test.py', reloading
+2024-05-01 12:49:50,256 - INFO:  * Restarting with stat
+2024-05-01 12:49:50,706 - INFO: Scheduler started
+2024-05-01 12:49:50,753 - WARNING:  * Debugger is active!
+2024-05-01 12:49:50,754 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 12:49:58,968 - INFO: Added job "monitor_website" to job store "default"
+2024-05-01 12:50:03,065 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f00a1761af0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 6631ed2380733279f592afad, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631ed2380733279f592afad"}, "remainingTimeMS": 29}
+2024-05-01 12:50:03,071 - INFO: 127.0.0.1 - - [01/May/2024 12:50:03] "POST / HTTP/1.1" 200 -
+2024-05-01 12:50:03,087 - INFO: 127.0.0.1 - - [01/May/2024 12:50:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 12:50:06,484 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631ed2680733279f592afaf, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631ed2680733279f592afaf"}, "remainingTimeMS": 29}
+2024-05-01 12:50:06,488 - INFO: 127.0.0.1 - - [01/May/2024 12:50:06] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 12:50:29,160 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f00a1761af0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 6631ed3d80733279f592afb0, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631ed3d80733279f592afb0"}, "remainingTimeMS": 29}
+2024-05-01 12:50:29,162 - INFO: 127.0.0.1 - - [01/May/2024 12:50:29] "[32mPOST /add_website HTTP/1.1[0m" 302 -
+2024-05-01 12:50:29,165 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631ed3d80733279f592afb2, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631ed3d80733279f592afb2"}, "remainingTimeMS": 29}
+2024-05-01 12:50:29,167 - INFO: 127.0.0.1 - - [01/May/2024 12:50:29] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 12:52:12,893 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/test.py', reloading
+2024-05-01 12:52:12,995 - INFO:  * Restarting with stat
+2024-05-01 12:52:13,449 - INFO: Scheduler started
+2024-05-01 12:52:13,493 - WARNING:  * Debugger is active!
+2024-05-01 12:52:13,493 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 12:52:14,619 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/test.py', reloading
+2024-05-01 12:52:14,719 - INFO:  * Restarting with stat
+2024-05-01 12:52:15,190 - INFO: Scheduler started
+2024-05-01 12:52:15,239 - WARNING:  * Debugger is active!
+2024-05-01 12:52:15,239 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 12:52:25,739 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/test.py', reloading
+2024-05-01 12:52:25,864 - INFO:  * Restarting with stat
+2024-05-01 12:52:26,360 - INFO: Scheduler started
+2024-05-01 12:52:26,410 - WARNING:  * Debugger is active!
+2024-05-01 12:52:26,410 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 12:52:48,414 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/test.py', reloading
+2024-05-01 12:52:48,509 - INFO:  * Restarting with stat
+2024-05-01 12:52:49,020 - INFO: Scheduler started
+2024-05-01 12:52:49,084 - WARNING:  * Debugger is active!
+2024-05-01 12:52:49,084 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 12:52:59,603 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/test.py', reloading
+2024-05-01 12:52:59,701 - INFO:  * Restarting with stat
+2024-05-01 12:54:16,582 - INFO: Scheduler started
+2024-05-01 12:54:16,625 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-05-01 12:54:16,626 - INFO:  * Restarting with stat
+2024-05-01 12:54:17,083 - INFO: Scheduler started
+2024-05-01 12:54:17,130 - WARNING:  * Debugger is active!
+2024-05-01 12:54:17,131 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 12:54:18,743 - INFO: 127.0.0.1 - - [01/May/2024 12:54:18] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2024-05-01 12:54:19,989 - INFO: 127.0.0.1 - - [01/May/2024 12:54:19] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2024-05-01 12:54:20,146 - INFO: 127.0.0.1 - - [01/May/2024 12:54:20] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2024-05-01 12:54:20,344 - INFO: 127.0.0.1 - - [01/May/2024 12:54:20] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2024-05-01 12:54:45,400 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/test.py', reloading
+2024-05-01 12:54:45,494 - INFO:  * Restarting with stat
+2024-05-01 12:54:45,955 - INFO: Scheduler started
+2024-05-01 12:54:46,002 - WARNING:  * Debugger is active!
+2024-05-01 12:54:46,002 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 12:54:47,131 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/test.py', reloading
+2024-05-01 12:54:47,240 - INFO:  * Restarting with stat
+2024-05-01 12:55:01,372 - INFO: Scheduler started
+2024-05-01 12:55:01,420 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-05-01 12:55:01,420 - INFO:  * Restarting with stat
+2024-05-01 12:55:01,868 - INFO: Scheduler started
+2024-05-01 12:55:01,916 - WARNING:  * Debugger is active!
+2024-05-01 12:55:01,916 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 12:55:04,453 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631ee50bb0c23bc5f1e4994, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631ee50bb0c23bc5f1e4994"}, "remainingTimeMS": 29}
+2024-05-01 12:55:04,458 - INFO: 127.0.0.1 - - [01/May/2024 12:55:04] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 12:56:24,450 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631eea0bb0c23bc5f1e4995, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631eea0bb0c23bc5f1e4995"}, "remainingTimeMS": 29}
+2024-05-01 12:56:24,454 - INFO: 127.0.0.1 - - [01/May/2024 12:56:24] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 12:56:25,838 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631eea1bb0c23bc5f1e4996, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631eea1bb0c23bc5f1e4996"}, "remainingTimeMS": 29}
+2024-05-01 12:56:25,839 - INFO: 127.0.0.1 - - [01/May/2024 12:56:25] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 12:56:35,938 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f58bf047af0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 6631eeabbb0c23bc5f1e4997, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631eeabbb0c23bc5f1e4997"}, "remainingTimeMS": 29}
+2024-05-01 12:56:35,940 - INFO: 127.0.0.1 - - [01/May/2024 12:56:35] "[32mPOST /add_website HTTP/1.1[0m" 302 -
+2024-05-01 12:56:35,943 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631eeabbb0c23bc5f1e4999, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631eeabbb0c23bc5f1e4999"}, "remainingTimeMS": 29}
+2024-05-01 12:56:35,944 - INFO: 127.0.0.1 - - [01/May/2024 12:56:35] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 12:57:29,316 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/test.py', reloading
+2024-05-01 12:57:29,442 - INFO:  * Restarting with stat
+2024-05-01 12:57:29,957 - INFO: Scheduler started
+2024-05-01 12:57:30,005 - WARNING:  * Debugger is active!
+2024-05-01 12:57:30,006 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 12:57:33,161 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631eee5ec37f3c694ef593e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631eee5ec37f3c694ef593e"}, "remainingTimeMS": 29}
+2024-05-01 12:57:33,167 - INFO: 127.0.0.1 - - [01/May/2024 12:57:33] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 12:57:33,804 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631eee5ec37f3c694ef593f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631eee5ec37f3c694ef593f"}, "remainingTimeMS": 29}
+2024-05-01 12:57:33,806 - INFO: 127.0.0.1 - - [01/May/2024 12:57:33] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 12:57:34,106 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631eee6ec37f3c694ef5940, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631eee6ec37f3c694ef5940"}, "remainingTimeMS": 29}
+2024-05-01 12:57:34,108 - INFO: 127.0.0.1 - - [01/May/2024 12:57:34] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 12:57:34,236 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631eee6ec37f3c694ef5941, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631eee6ec37f3c694ef5941"}, "remainingTimeMS": 29}
+2024-05-01 12:57:34,238 - INFO: 127.0.0.1 - - [01/May/2024 12:57:34] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 12:58:57,026 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631ef39ec37f3c694ef5942, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631ef39ec37f3c694ef5942"}, "remainingTimeMS": 29}
+2024-05-01 12:58:57,031 - INFO: 127.0.0.1 - - [01/May/2024 12:58:57] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 12:59:11,274 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f49ba9e6af0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 6631ef47ec37f3c694ef5943, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631ef47ec37f3c694ef5943"}, "remainingTimeMS": 29}
+2024-05-01 12:59:11,276 - INFO: 127.0.0.1 - - [01/May/2024 12:59:11] "[32mPOST /add_website HTTP/1.1[0m" 302 -
+2024-05-01 12:59:11,279 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631ef47ec37f3c694ef5945, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631ef47ec37f3c694ef5945"}, "remainingTimeMS": 29}
+2024-05-01 12:59:11,282 - INFO: 127.0.0.1 - - [01/May/2024 12:59:11] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 13:59:29,880 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/test.py', reloading
+2024-05-01 13:59:29,979 - INFO:  * Restarting with stat
+2024-05-01 13:59:30,451 - INFO: Scheduler started
+2024-05-01 13:59:30,496 - WARNING:  * Debugger is active!
+2024-05-01 13:59:30,497 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 13:59:33,704 - INFO:  * Detected change in '/home/oem/Desktop/Project-XRishi/Project-X/website_monitoring/test.py', reloading
+2024-05-01 13:59:33,799 - INFO:  * Restarting with stat
+2024-05-01 13:59:34,267 - INFO: Scheduler started
+2024-05-01 13:59:34,319 - WARNING:  * Debugger is active!
+2024-05-01 13:59:34,319 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 13:59:57,459 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f5122229af0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 6631fd858bfa448a539b64c8, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631fd858bfa448a539b64c8"}, "remainingTimeMS": 29}
+2024-05-01 13:59:57,462 - INFO: 127.0.0.1 - - [01/May/2024 13:59:57] "[32mPOST /add_website HTTP/1.1[0m" 302 -
+2024-05-01 13:59:57,465 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6631fd858bfa448a539b64ca, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6631fd858bfa448a539b64ca"}, "remainingTimeMS": 29}
+2024-05-01 13:59:57,472 - INFO: 127.0.0.1 - - [01/May/2024 13:59:57] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 14:19:05,597 - INFO: Scheduler started
+2024-05-01 14:19:05,647 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-05-01 14:19:05,647 - INFO:  * Restarting with stat
+2024-05-01 14:19:06,147 - INFO: Scheduler started
+2024-05-01 14:19:06,221 - WARNING:  * Debugger is active!
+2024-05-01 14:19:06,221 - INFO:  * Debugger PIN: 135-903-247
+2024-05-01 14:19:12,189 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66320208822bcd21b03bbd38, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66320208822bcd21b03bbd38"}, "remainingTimeMS": 29}
+2024-05-01 14:19:12,195 - INFO: 127.0.0.1 - - [01/May/2024 14:19:12] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 14:19:20,063 - INFO: Added job "monitor_website" to job store "default"
+2024-05-01 14:19:21,995 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7fef59adaaf0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 66320211822bcd21b03bbd39, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66320211822bcd21b03bbd39"}, "remainingTimeMS": 29}
+2024-05-01 14:19:22,002 - INFO: 127.0.0.1 - - [01/May/2024 14:19:22] "POST / HTTP/1.1" 200 -
+2024-05-01 14:19:22,028 - INFO: 127.0.0.1 - - [01/May/2024 14:19:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 15:19:20,063 - INFO: Running job "monitor_website (trigger: interval[1:00:00], next run at: 2024-05-01 09:49:20 UTC)" (scheduled at 2024-05-01 09:49:20.062999+00:00)
+2024-05-01 15:19:22,099 - INFO: Pinged website http://google.in at 2024-05-01 15:19:22.099368 with page load time: 1.0910627841949463 seconds
+2024-05-01 15:19:23,226 - INFO: Performed login transaction on website http://google.in at 2024-05-01 15:19:23.226864, transaction status: True
+2024-05-01 15:19:23,229 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7fef59adaaf0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 66321023822bcd21b03bbd3b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66321023822bcd21b03bbd3b"}, "remainingTimeMS": 29}
+2024-05-01 15:19:23,230 - INFO: Job "monitor_website (trigger: interval[1:00:00], next run at: 2024-05-01 10:49:20 UTC)" executed successfully
+2024-05-01 16:19:20,064 - INFO: Running job "monitor_website (trigger: interval[1:00:00], next run at: 2024-05-01 11:49:20 UTC)" (scheduled at 2024-05-01 10:49:20.062999+00:00)
+2024-05-01 16:19:22,401 - INFO: Pinged website http://google.in at 2024-05-01 16:19:22.401892 with page load time: 1.1205897331237793 seconds
+2024-05-01 16:19:23,332 - INFO: Performed login transaction on website http://google.in at 2024-05-01 16:19:23.332458, transaction status: True
+2024-05-01 16:19:23,333 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7fef59adaaf0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 66321e33822bcd21b03bbd3d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66321e33822bcd21b03bbd3d"}, "remainingTimeMS": 29}
+2024-05-01 16:19:23,335 - INFO: Job "monitor_website (trigger: interval[1:00:00], next run at: 2024-05-01 11:49:20 UTC)" executed successfully
+2024-05-01 17:19:20,063 - INFO: Running job "monitor_website (trigger: interval[1:00:00], next run at: 2024-05-01 12:49:20 UTC)" (scheduled at 2024-05-01 11:49:20.062999+00:00)
+2024-05-01 17:19:21,418 - INFO: Pinged website http://google.in at 2024-05-01 17:19:21.418151 with page load time: 0.6284871101379395 seconds
+2024-05-01 17:19:22,093 - INFO: Performed login transaction on website http://google.in at 2024-05-01 17:19:22.093131, transaction status: True
+2024-05-01 17:19:22,094 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7fef59adaaf0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 66322c42822bcd21b03bbd3f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66322c42822bcd21b03bbd3f"}, "remainingTimeMS": 29}
+2024-05-01 17:19:22,096 - INFO: Job "monitor_website (trigger: interval[1:00:00], next run at: 2024-05-01 12:49:20 UTC)" executed successfully
+2024-05-01 17:56:28,205 - INFO: Added job "monitor_website" to job store "default"
+2024-05-01 17:56:29,680 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7fef59adaaf0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 663234f5822bcd21b03bbd41, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "663234f5822bcd21b03bbd41"}, "remainingTimeMS": 29}
+2024-05-01 17:56:29,682 - INFO: 127.0.0.1 - - [01/May/2024 17:56:29] "POST / HTTP/1.1" 200 -
+2024-05-01 17:56:29,700 - INFO: 127.0.0.1 - - [01/May/2024 17:56:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 17:56:38,099 - INFO: Added job "monitor_website" to job store "default"
+2024-05-01 17:56:38,100 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7fef59adaaf0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 663234fe822bcd21b03bbd43, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "663234fe822bcd21b03bbd43"}, "remainingTimeMS": 29}
+2024-05-01 17:56:43,884 - INFO: 127.0.0.1 - - [01/May/2024 17:56:43] "POST / HTTP/1.1" 200 -
+2024-05-01 17:56:43,905 - INFO: 127.0.0.1 - - [01/May/2024 17:56:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 17:56:56,165 - INFO: Added job "monitor_website" to job store "default"
+2024-05-01 17:56:56,166 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7fef59adaaf0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 66323510822bcd21b03bbd45, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66323510822bcd21b03bbd45"}, "remainingTimeMS": 29}
+2024-05-01 17:57:01,809 - INFO: 127.0.0.1 - - [01/May/2024 17:57:01] "POST / HTTP/1.1" 200 -
+2024-05-01 17:57:01,826 - INFO: 127.0.0.1 - - [01/May/2024 17:57:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 21:58:19,528 - INFO: Scheduler started
+2024-05-01 21:58:19,603 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-05-01 21:58:19,604 - INFO:  * Restarting with stat
+2024-05-01 21:58:20,032 - INFO: Scheduler started
+2024-05-01 21:58:20,073 - WARNING:  * Debugger is active!
+2024-05-01 21:58:20,114 - INFO:  * Debugger PIN: 720-238-234
+2024-05-01 21:58:40,642 - INFO: 127.0.0.1 - - [01/May/2024 21:58:40] "GET / HTTP/1.1" 200 -
+2024-05-01 21:58:40,665 - INFO: 127.0.0.1 - - [01/May/2024 21:58:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 21:58:40,731 - INFO: 127.0.0.1 - - [01/May/2024 21:58:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-01 21:58:45,377 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326dbd3e41c59574e73aae, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326dbd3e41c59574e73aae"}, "remainingTimeMS": 29}
+2024-05-01 21:58:45,387 - INFO: 127.0.0.1 - - [01/May/2024 21:58:45] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 22:02:48,806 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326eb03e41c59574e73aaf, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326eb03e41c59574e73aaf"}, "remainingTimeMS": 29}
+2024-05-01 22:02:48,808 - INFO: 127.0.0.1 - - [01/May/2024 22:02:48] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 22:02:52,017 - INFO: 127.0.0.1 - - [01/May/2024 22:02:52] "GET / HTTP/1.1" 200 -
+2024-05-01 22:02:52,036 - INFO: 127.0.0.1 - - [01/May/2024 22:02:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:03:02,880 - INFO: Scheduler started
+2024-05-01 22:03:02,922 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-05-01 22:03:02,922 - INFO:  * Restarting with stat
+2024-05-01 22:03:03,347 - INFO: Scheduler started
+2024-05-01 22:03:03,388 - WARNING:  * Debugger is active!
+2024-05-01 22:03:03,389 - INFO:  * Debugger PIN: 720-238-234
+2024-05-01 22:03:06,830 - INFO: 127.0.0.1 - - [01/May/2024 22:03:06] "GET / HTTP/1.1" 200 -
+2024-05-01 22:03:06,839 - INFO: 127.0.0.1 - - [01/May/2024 22:03:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:03:07,479 - INFO: 127.0.0.1 - - [01/May/2024 22:03:07] "GET / HTTP/1.1" 200 -
+2024-05-01 22:03:07,500 - INFO: 127.0.0.1 - - [01/May/2024 22:03:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:03:07,612 - INFO: 127.0.0.1 - - [01/May/2024 22:03:07] "GET / HTTP/1.1" 200 -
+2024-05-01 22:03:07,635 - INFO: 127.0.0.1 - - [01/May/2024 22:03:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:03:07,773 - INFO: 127.0.0.1 - - [01/May/2024 22:03:07] "GET / HTTP/1.1" 200 -
+2024-05-01 22:03:07,785 - INFO: 127.0.0.1 - - [01/May/2024 22:03:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:03:07,906 - INFO: 127.0.0.1 - - [01/May/2024 22:03:07] "GET / HTTP/1.1" 200 -
+2024-05-01 22:03:07,918 - INFO: 127.0.0.1 - - [01/May/2024 22:03:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:03:08,087 - INFO: 127.0.0.1 - - [01/May/2024 22:03:08] "GET / HTTP/1.1" 200 -
+2024-05-01 22:03:08,101 - INFO: 127.0.0.1 - - [01/May/2024 22:03:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:03:08,259 - INFO: 127.0.0.1 - - [01/May/2024 22:03:08] "GET / HTTP/1.1" 200 -
+2024-05-01 22:03:08,280 - INFO: 127.0.0.1 - - [01/May/2024 22:03:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:03:39,818 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326ee39c559057523fd95d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326ee39c559057523fd95d"}, "remainingTimeMS": 29}
+2024-05-01 22:03:40,106 - INFO: 127.0.0.1 - - [01/May/2024 22:03:40] "GET /analytics HTTP/1.1" 200 -
+2024-05-01 22:03:42,662 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326ee69c559057523fd95e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326ee69c559057523fd95e"}, "remainingTimeMS": 29}
+2024-05-01 22:03:42,831 - INFO: 127.0.0.1 - - [01/May/2024 22:03:42] "GET /analytics HTTP/1.1" 200 -
+2024-05-01 22:03:44,717 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326ee89c559057523fd95f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326ee89c559057523fd95f"}, "remainingTimeMS": 29}
+2024-05-01 22:03:44,881 - INFO: 127.0.0.1 - - [01/May/2024 22:03:44] "GET /analytics HTTP/1.1" 200 -
+2024-05-01 22:03:45,847 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326ee99c559057523fd960, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326ee99c559057523fd960"}, "remainingTimeMS": 29}
+2024-05-01 22:03:45,852 - INFO: 127.0.0.1 - - [01/May/2024 22:03:45] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 22:04:03,812 - INFO: 127.0.0.1 - - [01/May/2024 22:04:03] "GET / HTTP/1.1" 200 -
+2024-05-01 22:05:35,099 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326f579c559057523fd961, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326f579c559057523fd961"}, "remainingTimeMS": 29}
+2024-05-01 22:05:35,272 - INFO: 127.0.0.1 - - [01/May/2024 22:05:35] "GET /analytics HTTP/1.1" 200 -
+2024-05-01 22:05:35,283 - INFO: 127.0.0.1 - - [01/May/2024 22:05:35] "GET /static/page_load_time.png HTTP/1.1" 200 -
+2024-05-01 22:05:35,283 - INFO: 127.0.0.1 - - [01/May/2024 22:05:35] "GET /static/uptime_status.png HTTP/1.1" 200 -
+2024-05-01 22:05:35,284 - INFO: 127.0.0.1 - - [01/May/2024 22:05:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:05:35,427 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326f579c559057523fd962, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326f579c559057523fd962"}, "remainingTimeMS": 29}
+2024-05-01 22:05:35,624 - INFO: 127.0.0.1 - - [01/May/2024 22:05:35] "GET /analytics HTTP/1.1" 200 -
+2024-05-01 22:05:35,640 - INFO: 127.0.0.1 - - [01/May/2024 22:05:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:05:35,641 - INFO: 127.0.0.1 - - [01/May/2024 22:05:35] "[36mGET /static/uptime_status.png HTTP/1.1[0m" 304 -
+2024-05-01 22:05:35,642 - INFO: 127.0.0.1 - - [01/May/2024 22:05:35] "[36mGET /static/page_load_time.png HTTP/1.1[0m" 304 -
+2024-05-01 22:05:35,754 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326f579c559057523fd963, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326f579c559057523fd963"}, "remainingTimeMS": 29}
+2024-05-01 22:05:35,977 - INFO: 127.0.0.1 - - [01/May/2024 22:05:35] "GET /analytics HTTP/1.1" 200 -
+2024-05-01 22:05:35,993 - INFO: 127.0.0.1 - - [01/May/2024 22:05:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:05:35,994 - INFO: 127.0.0.1 - - [01/May/2024 22:05:35] "[36mGET /static/uptime_status.png HTTP/1.1[0m" 304 -
+2024-05-01 22:05:35,994 - INFO: 127.0.0.1 - - [01/May/2024 22:05:35] "[36mGET /static/page_load_time.png HTTP/1.1[0m" 304 -
+2024-05-01 22:05:41,988 - INFO: 127.0.0.1 - - [01/May/2024 22:05:41] "GET / HTTP/1.1" 200 -
+2024-05-01 22:05:42,001 - INFO: 127.0.0.1 - - [01/May/2024 22:05:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:05:43,958 - INFO: 127.0.0.1 - - [01/May/2024 22:05:43] "GET / HTTP/1.1" 200 -
+2024-05-01 22:05:43,980 - INFO: 127.0.0.1 - - [01/May/2024 22:05:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:05:53,123 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326f699c559057523fd964, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326f699c559057523fd964"}, "remainingTimeMS": 29}
+2024-05-01 22:05:53,130 - INFO: 127.0.0.1 - - [01/May/2024 22:05:53] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 22:05:53,143 - INFO: 127.0.0.1 - - [01/May/2024 22:05:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:05:55,142 - INFO: 127.0.0.1 - - [01/May/2024 22:05:55] "[33mGET /about HTTP/1.1[0m" 404 -
+2024-05-01 22:05:58,231 - INFO: 127.0.0.1 - - [01/May/2024 22:05:58] "GET / HTTP/1.1" 200 -
+2024-05-01 22:05:58,245 - INFO: 127.0.0.1 - - [01/May/2024 22:05:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:06:51,112 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326fa39c559057523fd965, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326fa39c559057523fd965"}, "remainingTimeMS": 29}
+2024-05-01 22:06:51,114 - INFO: 127.0.0.1 - - [01/May/2024 22:06:51] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 22:06:51,127 - INFO: 127.0.0.1 - - [01/May/2024 22:06:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:07:41,740 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326fd59c559057523fd966, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326fd59c559057523fd966"}, "remainingTimeMS": 29}
+2024-05-01 22:07:41,748 - INFO: 127.0.0.1 - - [01/May/2024 22:07:41] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 22:07:41,762 - INFO: 127.0.0.1 - - [01/May/2024 22:07:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:07:42,502 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326fd69c559057523fd967, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326fd69c559057523fd967"}, "remainingTimeMS": 29}
+2024-05-01 22:07:42,506 - INFO: 127.0.0.1 - - [01/May/2024 22:07:42] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 22:07:42,516 - INFO: 127.0.0.1 - - [01/May/2024 22:07:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:07:42,681 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326fd69c559057523fd968, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326fd69c559057523fd968"}, "remainingTimeMS": 29}
+2024-05-01 22:07:42,685 - INFO: 127.0.0.1 - - [01/May/2024 22:07:42] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 22:07:42,698 - INFO: 127.0.0.1 - - [01/May/2024 22:07:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:07:43,099 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326fd79c559057523fd969, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326fd79c559057523fd969"}, "remainingTimeMS": 29}
+2024-05-01 22:07:43,102 - INFO: 127.0.0.1 - - [01/May/2024 22:07:43] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 22:07:43,115 - INFO: 127.0.0.1 - - [01/May/2024 22:07:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:07:46,595 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326fda9c559057523fd96a, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326fda9c559057523fd96a"}, "remainingTimeMS": 29}
+2024-05-01 22:07:46,599 - INFO: 127.0.0.1 - - [01/May/2024 22:07:46] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 22:07:46,611 - INFO: 127.0.0.1 - - [01/May/2024 22:07:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:07:46,772 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326fda9c559057523fd96b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326fda9c559057523fd96b"}, "remainingTimeMS": 29}
+2024-05-01 22:07:46,775 - INFO: 127.0.0.1 - - [01/May/2024 22:07:46] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 22:07:46,789 - INFO: 127.0.0.1 - - [01/May/2024 22:07:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 22:08:06,308 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66326fee9c559057523fd96c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66326fee9c559057523fd96c"}, "remainingTimeMS": 29}
+2024-05-01 22:08:06,313 - INFO: 127.0.0.1 - - [01/May/2024 22:08:06] "GET /dashboard HTTP/1.1" 200 -
+2024-05-02 12:22:10,132 - INFO: Scheduler started
+2024-05-02 12:22:10,230 - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-05-02 12:22:10,231 - INFO:  * Restarting with stat
+2024-05-02 12:22:10,762 - INFO: Scheduler started
+2024-05-02 12:22:10,815 - WARNING:  * Debugger is active!
+2024-05-02 12:22:10,873 - INFO:  * Debugger PIN: 224-282-086
+2024-05-02 12:22:17,419 - INFO: 127.0.0.1 - - [02/May/2024 12:22:17] "GET / HTTP/1.1" 200 -
+2024-05-02 12:22:17,475 - INFO: 127.0.0.1 - - [02/May/2024 12:22:17] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-02 12:22:17,504 - INFO: 127.0.0.1 - - [02/May/2024 12:22:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-02 12:22:28,736 - INFO: Added job "monitor_website" to job store "default"
+2024-05-02 12:22:28,745 - INFO: {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f744cea7af0>", "operation": "insert", "topologyDescription": "<TopologyDescription id: 6633382c31042f7f6ec7b2e3, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6633382c31042f7f6ec7b2e3"}, "remainingTimeMS": 29}
+2024-05-02 12:22:49,217 - INFO: 127.0.0.1 - - [02/May/2024 12:22:49] "POST / HTTP/1.1" 200 -
+2024-05-02 12:22:49,242 - INFO: 127.0.0.1 - - [02/May/2024 12:22:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-02 12:22:51,705 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6633384331042f7f6ec7b2e5, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6633384331042f7f6ec7b2e5"}, "remainingTimeMS": 29}
+2024-05-02 12:22:51,717 - INFO: 127.0.0.1 - - [02/May/2024 12:22:51] "GET /dashboard HTTP/1.1" 200 -
+2024-05-02 12:22:55,742 - INFO: {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6633384731042f7f6ec7b2e6, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6633384731042f7f6ec7b2e6"}, "remainingTimeMS": 29}
+2024-05-02 12:22:56,045 - INFO: 127.0.0.1 - - [02/May/2024 12:22:56] "GET /analytics HTTP/1.1" 200 -
+2024-05-02 12:22:56,095 - INFO: 127.0.0.1 - - [02/May/2024 12:22:56] "GET /static/uptime_status.png HTTP/1.1" 200 -
+2024-05-02 12:22:56,095 - INFO: 127.0.0.1 - - [02/May/2024 12:22:56] "GET /static/page_load_time.png HTTP/1.1" 200 -
+2024-05-02 12:22:56,095 - INFO: 127.0.0.1 - - [02/May/2024 12:22:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
