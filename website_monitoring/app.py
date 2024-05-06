@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, send_from_directory
+from flask import Flask, render_template, request, send_from_directory,redirect,send_file
 import requests
 import time
 import sqlite3
@@ -6,15 +6,11 @@ import smtplib
 import logging
 from email.mime.text import MIMEText
 import matplotlib.pyplot as plt
-from flask import redirect, url_for
 from apscheduler.schedulers.background import BackgroundScheduler
-import pytz
 from pytz import utc
-
 import datetime
 scheduler = BackgroundScheduler(timezone=utc)
-
-
+ 
 
 app = Flask(__name__)
 
@@ -78,7 +74,7 @@ def log_performance_data(url, status, load_time):
         db = client["website_monitoring"]
         collection = db["performance_data"]
         data = {
-            "timestamp": timestamp,
+            "timestamp": timestamp,       #timestamp need to be checked 
             "url": url,
             "status": status,
             "load_time": load_time
@@ -131,11 +127,15 @@ scheduler.start()
 
 DEFAULT_INTERVAL = 30
 
+
+
 #----------------------------------------------------------------------------------
 # dashboard functions 
 
 # Function to add a website to the database
 import pymongo
+
+
 
 def add_website_to_db(url, time_interval, measure_speed, login_transaction, recipient_email):
     try:
@@ -160,18 +160,20 @@ def add_website_to_db(url, time_interval, measure_speed, login_transaction, reci
 
 
 # Function to retrieve all websites from the database
-def get_all_websites_from_db():
-    try:
-        client = pymongo.MongoClient("mongodb://localhost:27017/")
-        db = client["website_monitoring"]
-        collection = db["websites"]
-        websites = list(collection.find({}, {"_id": 1, "url": 1, "status": 1, "measure_speed": 1, "login_transaction": 1}))
-        return websites
-    except Exception as e:
-        print(f"Error retrieving websites from database: {e}")
-        return []
-    finally:
-        client.close()
+# def get_all_websites_from_db():
+#     try:
+#         client = pymongo.MongoClient("mongodb://localhost:27017/")
+#         db = client["website_monitoring"]
+#         collection = db["websites"]
+#         print("mgngng")
+#         print(collection)
+#         websites = list(collection.find({}, {"_id": 1, "url": 1, "status": 1, "measure_speed": 1, "login_transaction": 1}))
+#         return websites
+#     except Exception as e:
+#         print(f"Error retrieving websites from database: {e}")
+#         return []
+#     finally:
+#         client.close()
 
 
 
@@ -179,18 +181,44 @@ def get_all_websites_from_db():
 
         
 
-# Function to delete a website from the database
+# Function to delete a website from the database ------------------need to be modified 
+# def delete_website_from_db(website_id):
+#     try:
+#         client = pymongo.MongoClient("mongodb://localhost:27017/")
+#         db = client["website_monitoring"]
+#         collection = db["websites"]
+#         collection.delete_One({"_id": website_id})
+#         #collection.delete_one({"_id":"6631ef47ec37f3c694ef5944"})
+#         print("Website deleted successfully.")
+#     except Exception as e:
+#         print(f"Error deleting website from database: {e}")
+#     finally:
+#         client.close()
+import pymongo
+from bson import ObjectId
+
 def delete_website_from_db(website_id):
     try:
         client = pymongo.MongoClient("mongodb://localhost:27017/")
         db = client["website_monitoring"]
         collection = db["websites"]
-        collection.delete_one({"_id": website_id})
-        print("Website deleted successfully.")
+        # Convert website_id to ObjectId
+        website_id = ObjectId(website_id)
+        # Delete document based on _id
+        result = collection.delete_one({"_id": website_id})
+        if result.deleted_count == 1:
+            print("Website deleted successfully.")
+        else:
+            print("No website found with the provided ID.")
     except Exception as e:
         print(f"Error deleting website from database: {e}")
     finally:
         client.close()
+
+# Example usage:
+# delete_website_from_db("6631ed3d80733279f592afb1")
+
+
 
 
 
@@ -216,11 +244,16 @@ def index():
         page_load_time = None
         transaction_status = None
         if measure_speed:
+         try:
             start_time = time.time()
             response = requests.get(website_url)
             end_time = time.time()
             page_load_time = end_time - start_time
-        if login_transaction:
+            logging.info(f"Pinged website {website_url} at {datetime.datetime.now()} with page load time: {page_load_time} seconds")
+         except requests.exceptions.RequestException as e:
+            logging.error(f"Failed to measure speed for website {website_url}: {e}")
+            page_load_time = None
+         if login_transaction:
             transaction_status = perform_login_transaction(website_url)
         log_performance_data(website_url, status, page_load_time)
         if not status:
@@ -228,13 +261,18 @@ def index():
         return render_template('index.html', website_url=website_url, status=status, page_load_time=page_load_time, measure_speed=measure_speed, transaction_status=transaction_status)
     return render_template('index.html')
 
+
+
+
+
 @app.route('/dashboard')
 def dashboard():
     try:
-        client = pymongo.MongoClient("mongodb://localhost:27017/")
+        client = pymongo.MongoClient("mongodb://localhost:27017/",connectTimeoutMS=3000)
         db = client["website_monitoring"]
         collection = db["websites"]
         websites = list(collection.find())
+        #print(websites)
         return render_template('dashboard.html', websites=websites)
     except Exception as e:
         print(f"Error retrieving websites from database: {e}")
@@ -289,21 +327,28 @@ def analytics():
         client.close()
 
 
-@app.route('/static/<path:path>')
+@app.route('/static/<path:path>')      ### need to be asked with chad bhaiya
 def send_static(path):
     return send_from_directory('static', path)
 
-def get_all_websites_from_db():
-    try:
-        client = pymongo.MongoClient("mongodb://localhost:27017/")
-        db = client["website_monitoring"]
-        collection = db["websites"]
-        websites = list(collection.find({}, {"url": 1, "status": 1, "measure_speed": 1, "login_transaction": 1}))
-        return websites
-    except Exception as e:
-        print(f"Error retrieving websites from database: {e}")
-    finally:
-        client.close()
+
+
+
+
+
+
+
+# def get_all_websites_from_db():
+#     try:
+#         client = pymongo.MongoClient("mongodb://localhost:27017/")
+#         db = client["website_monitoring"]
+#         collection = db["websites"]
+#         websites = list(collection.find({}, {"url": 1, "status": 1, "measure_speed": 1, "login_transaction": 1}))
+#         return websites
+#     except Exception as e:
+#         print(f"Error retrieving websites from database: {e}")
+#     finally:
+#         client.close()
 
 
 
@@ -319,11 +364,33 @@ def add_website():
     return redirect('/dashboard')
 
 
-@app.route('/delete_website/<int:website_id>')
+# @app.route('/delete_website/<int:website_id>') 
+# def delete_website(website_id):
+#    # print("------------calling deltewesitefunc")
+#     #delete_website_from_db ("6631ed3d80733279f592afb1")
+#     # Remove corresponding monitoring task here
+#     return redirect('/')
+
+
+
+@app.route('/delete_website/<website_id>', methods=['POST'])
 def delete_website(website_id):
-    delete_website_from_db(website_id)
-    # Remove corresponding monitoring task here
-    return redirect('/dashboard')
+    delete_website_from_db(website_id)  # Call the function to delete the website from the database
+    return redirect('/dashboard') # Redirect back to the dashboard after deletion
+
+
+
+
+
+@app.route('/download_logs')
+def download_logs():
+    log_file_path = 'monitoring.log'  # Path to your log file
+    return send_file(log_file_path, as_attachment=True)
+
+
+
+
+
 
 
 if __name__ == '__main__':

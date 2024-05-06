@@ -1,11 +1,14 @@
 <!DOCTYPE html>
- 
-
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Monitoring Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+
+
+
 </head>
 <body>
     <h1>Website Monitoring Dashboard</h1>
@@ -13,6 +16,7 @@
     <table>
         <tr>
             <th>Website</th>
+            <th>id</th>
             <th>Status</th>
             <th>Speed</th>
             <th>Login Transaction</th>
@@ -21,10 +25,15 @@
         {% for website in websites %}
             <tr>
                 <td>{{ website.url }}</td>
+                <td>{{ website._id }}</td>
                 <td>{% if website.status == True %}UP{% else %}DOWN{% endif %}</td>
                 <td>{% if website.measure_speed == True %}Enabled{% else %}Disabled{% endif %}</td>
                 <td>{% if website.login_transaction == True %}Enabled{% else %}Disabled{% endif %}</td>
-                <td><a href="/delete_website/{{ website._id }}">Delete</a></td>
+                <td>
+                    <form action="/delete_website/{{ website._id }}" method="post">
+                        <button type="submit">Delete</button>
+                    </form>
+                </td>
             </tr>
         {% endfor %}
     </table>
@@ -42,5 +51,9 @@
         <label for="login_transaction">Perform Login Transaction</label>
         <button type="submit">Add Website</button>
     </form>
+
+    <h2>Download Logs</h2>
+    <p>Click the button below to download the log file:</p>
+    <a href="/download_logs" download><button>Download Logs</button></a>
 </body>
 </html>
