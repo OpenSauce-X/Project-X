@@ -4,4 +4,5 @@ Werkzeug==2.0.2
 requests==2.26.0
 APScheduler==3.8.1
 matplotlib==3.4.3
+pymongo==3.12.0
 
